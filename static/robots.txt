@@ -18,4 +18,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://julia-and.github.io/sitemap.xml
+Sitemap: https://julia-and.github.io/words-about-things/sitemap.xml

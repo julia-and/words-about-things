@@ -1,7 +1,7 @@
 # TODO: replace USERNAME with your GitHub handle (or swap in a custom domain).
-base_url = "https://julia-and.github.io"
+base_url = "https://julia-and.github.io/words-about-things"
 title = "words about things"
-description = "notes and code"
+description = "like, you know... whatever"
 default_language = "en"
 compile_sass = true
 generate_feeds = true
