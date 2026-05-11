@@ -43,10 +43,34 @@
 {% block content %}{% endblock %}
 </main>
 <footer class="site-footer">
-  <span class="copy" aria-label="copyright">©</span>
+  <span class="copy" aria-label="copyright">
+    <span class="copy-glyph">©</span>
+    {# Umbrella Corporation logo — fictional brand from the Resident Evil series.
+       SVG sourced from Wikimedia Commons (public-fan SVG, CC BY-SA). #}
+    <svg class="umbrella" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="2" aria-hidden="true">
+      <radialGradient id="u-red" cx="150" cy="150" r="150" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#c00" offset=".3"/>
+        <stop stop-color="#a11" offset=".7"/>
+      </radialGradient>
+      <radialGradient id="u-white" cx="150" cy="150" r="150" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#ddd" offset=".3"/>
+        <stop stop-color="#fff" offset=".6"/>
+        <stop stop-color="#ddd" offset=".9"/>
+      </radialGradient>
+      <g id="u-a">
+        <g id="u-b">
+          <path d="m206 5s-28 14-56 14-56-14-56-14l56 135z" fill="url(#u-red)" stroke="#870200"/>
+          <path d="m87 8s-10 30-30 50c-19 19-49 29-49 29l135 56z" fill="url(#u-white)" stroke="#bdbdbd"/>
+        </g>
+        <use transform="rotate(90,150,150)" xlink:href="#u-b"/>
+      </g>
+      <use transform="rotate(180,150,150)" xlink:href="#u-a"/>
+    </svg>
+  </span>
   <span class="year">{{ now() | date(format="%Y") }}</span>
   <span class="sep">·</span>
   <a href="{{ get_url(path='humans.txt') }}" title="who built this">¶</a>
+  <span class="umbrella-text" aria-hidden="true">a product of the Umbrella Corporation</span>
 </footer>
 </body>
 </html>

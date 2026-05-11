@@ -2,7 +2,7 @@
 // ouest (west), sud (south), est (east), sud-ouest (southwest). Swap below.
 @font-face {
   font-family: "Facade";
-  src: url("/words-about-things/fonts/facade-sud-ouest.woff2") format("woff2");
+  src: url("fonts/facade-sud-ouest.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -424,6 +424,7 @@ pre code {
 
 /* === FOOTER === */
 .site-footer {
+  position: relative;
   margin-top: 5rem;
   padding-top: 1rem;
   border-top: 1px solid var(--hl-med);
