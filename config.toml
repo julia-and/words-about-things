@@ -1,0 +1,26 @@
+# TODO: replace USERNAME with your GitHub handle (or swap in a custom domain).
+base_url = "https://julia-and.github.io"
+title = "words about things"
+description = "notes and code"
+default_language = "en"
+compile_sass = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+build_search_index = false
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[markdown]
+smart_punctuation = true
+
+[markdown.highlighting]
+enable = true
+style = "class"
+light_theme = "rose-pine-dawn"
+dark_theme = "rose-pine"
+extra_themes = [
+    "syntaxes/themes/rose-pine.json",
+    "syntaxes/themes/rose-pine-dawn.json",
+]

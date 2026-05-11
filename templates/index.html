@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <h1 class="hero-title">{{ config.title }}</h1>
+  <p class="bio">{{ config.description }}<span class="bio-end">.</span></p>
+</section>
+
+<section class="post-list-wrap">
+  <h2 class="section-label" data-secret="// the good stuff"><span class="label-prefix">//</span> POSTS</h2>
+  {% set posts = get_section(path="posts/_index.md") %}
+  {% if posts.pages %}
+  <ul class="post-list">
+    {% for page in posts.pages %}
+    <li>
+      <a href="{{ page.permalink }}">
+        <time datetime="{{ page.date }}">{{ page.date | date(format="%Y · %m · %d") }}</time>
+        <span class="post-title">{{ page.title }}</span>
+        {% if page.extra.lang and page.extra.lang != config.default_language %}<span class="lang-chip">[{{ page.extra.lang | upper }}]</span>{% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="empty">(nothing yet — soon.)</p>
+  {% endif %}
+</section>
+{% endblock %}

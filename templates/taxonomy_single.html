@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}#{{ term.name }} · {{ config.title }}{% endblock %}
+
+{% block content %}
+<header class="section-header">
+  <h1 class="section-label" data-secret="// siblings"><span class="label-prefix">//</span> #{{ term.name | upper }}</h1>
+</header>
+
+<ul class="post-list">
+  {% for page in term.pages %}
+  <li>
+    <a href="{{ page.permalink }}">
+      <time datetime="{{ page.date }}">{{ page.date | date(format="%Y · %m · %d") }}</time>
+      <span class="post-title">{{ page.title }}</span>
+      {% if page.extra.lang and page.extra.lang != config.default_language %}<span class="lang-chip">[{{ page.extra.lang | upper }}]</span>{% endif %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

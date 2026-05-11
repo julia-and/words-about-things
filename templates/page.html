@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} · {{ config.title }}{% endblock %}
+{% block description %}{% if page.description %}{{ page.description }}{% else %}{{ page.summary | default(value=config.description) | striptags | truncate(length=160) }}{% endif %}{% endblock %}
+
+{% block content %}
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title-big">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date }}">{{ page.date | date(format="%Y · %m · %d") }}</time>
+      {% if page.extra.lang and page.extra.lang != config.default_language %}
+      <span class="sep">·</span>
+      <span class="lang-chip">[{{ page.extra.lang | upper }}]</span>
+      {% endif %}
+      {% if page.taxonomies.tags %}
+      <span class="sep">·</span>
+      {% for tag in page.taxonomies.tags %}<a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">#{{ tag }}</a>{% if not loop.last %} {% endif %}{% endfor %}
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="post-body">
+    {{ page.content | safe }}
+  </div>
+</article>
+
+<nav class="post-nav" aria-label="post navigation">
+  {% if page.lower %}<a class="post-nav-prev" href="{{ page.lower.permalink }}">← {{ page.lower.title }}</a>{% endif %}
+  {% if page.higher %}<a class="post-nav-next" href="{{ page.higher.permalink }}">{{ page.higher.title }} →</a>{% endif %}
+</nav>
+{% endblock %}

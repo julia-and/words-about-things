@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}404 · {{ config.title }}{% endblock %}
+
+{% block content %}
+<section class="not-found">
+  <h1 class="four-oh-four" aria-label="404">FOUR<br>OH<br>FOUR</h1>
+  <pre class="trace">Traceback (most recent reader last):
+  File "{{ config.base_url }}/&lt;requested&gt;", line ??, in &lt;browser&gt;
+    GET /this-page
+  File "the index of all pages",
+    no entry matched.
+PageRotError: the page you wanted has either
+              rotted, been pruned, or never grew.</pre>
+  <p class="not-found-cta">
+    <a href="{{ get_url(path='/') }}">↩ back to the trunk</a>
+  </p>
+</section>
+{% endblock %}

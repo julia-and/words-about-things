@@ -1,0 +1,18 @@
+# Zola build output
+/public/
+
+# Generated syntax-highlight CSS (rebuilt on every `zola build`)
+/static/giallo-*.css
+
+# Zola image processing cache (unused now, but harmless)
+/static/processed_images/
+
+# macOS clutter
+.DS_Store
+
+# Editor / OS leftovers
+*.swp
+*~
+
+# Playwright MCP artifacts (in case they ever land here)
+.playwright-mcp/

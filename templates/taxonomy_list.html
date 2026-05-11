@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}{{ taxonomy.name }} · {{ config.title }}{% endblock %}
+
+{% block content %}
+<header class="section-header">
+  <h1 class="section-label" data-secret="// navigate the entropy"><span class="label-prefix">//</span> TAGS</h1>
+</header>
+
+<ul class="tag-list">
+  {% for term in terms %}
+  <li>
+    <a href="{{ term.permalink }}">#{{ term.name }}</a>
+    <span class="tag-count">×{{ term.pages | length }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
