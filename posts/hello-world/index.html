@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+
+  ╔══════════════════════════════════════════════════╗
+  ║                                                  ║
+  ║   source-readers welcome.                        ║
+  ║                                                  ║
+  ║   this site ships  : zero javascript             ║
+  ║                     zero cookies                 ║
+  ║                     zero trackers                ║
+  ║                                                  ║
+  ║   built with       : zola · rose pine            ║
+  ║                     · facade (velvetyne)         ║
+  ║                                                  ║
+  ║   say hi           : /humans.txt                 ║
+  ║                                                  ║
+  ╚══════════════════════════════════════════════════╝
+
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hello, world · words about things</title>
+<meta name="description" content="first post on a new static site — zero JS, no cookies, build-time syntax highlighting.">
+<link rel="preload" as="font" type="font/woff2" href="https://julia-and.github.io/fonts/facade-sud-ouest.woff2" crossorigin>
+<link rel="stylesheet" href="https://julia-and.github.io/main.css">
+<link rel="stylesheet" href="https://julia-and.github.io/giallo-light.css">
+<link rel="stylesheet" href="https://julia-and.github.io/giallo-dark.css" media="(prefers-color-scheme: dark)">
+<link rel="alternate" type="application/atom+xml" title="words about things — atom feed" href="https://julia-and.github.io/atom.xml">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<header class="site-header">
+  <a class="site-title" href="https://julia-and.github.io">words about things</a>
+  <nav class="site-nav" aria-label="primary">
+    <a href="https://julia-and.github.io/posts">POSTS</a>
+    <a href="https://julia-and.github.io/tags">TAGS</a>
+    <a href="https://julia-and.github.io/atom.xml">FEED</a>
+  </nav>
+</header>
+<main class="site-main">
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title-big">hello, world</h1>
+    <p class="post-meta">
+      <time datetime="2026-05-11">2026 · 05 · 11</time>
+      
+      
+      <span class="sep">·</span>
+      <a class="tag" href="https://julia-and.github.io/tags/meta/">#meta</a>
+      
+    </p>
+  </header>
+
+  <div class="post-body">
+    <p>A new site, built with <a rel="external" href="https://www.getzola.org">Zola</a>: a single Rust binary that takes Markdown and templates and gives back a folder of HTML. Zero JavaScript ships to your browser. Zero cookies are set. Syntax highlighting happens at build time — what you’re about to see is just <code>&lt;span&gt;</code> tags and CSS.</p>
+<h2 id="why-bother">why bother</h2>
+<p>I like the <a rel="external" href="https://ar.al/2020/08/07/what-is-the-small-web/">small web</a>. Pages that load instantly, work without consent banners, and don’t watch you back. This place is a notebook for code, longer-form thinking, and the occasional log entry.</p>
+<h2 id="a-snippet-because-we-have-to-test-it">a snippet, because we have to test it</h2>
+<p>Some Rust:</p>
+<pre class="giallo z-code"><code data-lang="rust"><span class="giallo-l"><span class="z-keyword">fn</span><span class="z-entity z-name"> main</span><span class="z-punctuation">(</span><span class="z-punctuation">)</span><span class="z-punctuation"> {</span></span>
+<span class="giallo-l"><span class="z-storage z-type">    let</span><span class="z-variable z-other"> rose</span><span class="z-keyword"> =</span><span class="z-punctuation z-definition z-string"> &quot;</span><span class="z-string">🌹</span><span class="z-punctuation z-definition z-string">&quot;</span><span class="z-punctuation">;</span></span>
+<span class="giallo-l"><span class="z-storage z-type">    let</span><span class="z-variable z-other"> greeting</span><span class="z-keyword"> =</span><span class="z-entity z-name"> format!</span><span class="z-punctuation">(</span><span class="z-punctuation z-definition z-string">&quot;</span><span class="z-string">hello from </span><span class="z-punctuation">{</span><span class="z-string">rose</span><span class="z-punctuation">}</span><span class="z-punctuation z-definition z-string">&quot;</span><span class="z-punctuation">)</span><span class="z-punctuation">;</span></span>
+<span class="giallo-l"><span class="z-entity z-name">    println!</span><span class="z-punctuation">(</span><span class="z-punctuation z-definition z-string">&quot;</span><span class="z-punctuation">{</span><span class="z-string">greeting</span><span class="z-punctuation">}</span><span class="z-punctuation z-definition z-string">&quot;</span><span class="z-punctuation">)</span><span class="z-punctuation">;</span></span>
+<span class="giallo-l"><span class="z-punctuation">}</span></span></code></pre>
+<p>And a shell incantation:</p>
+<pre class="giallo z-code"><code data-lang="shellscript"><span class="giallo-l"><span class="z-punctuation">#</span><span class="z-comment"> build, then push</span></span>
+<span class="giallo-l"><span class="z-entity z-name">zola</span><span class="z-string"> build</span><span class="z-punctuation"> &amp;&amp;</span><span class="z-entity z-name"> rsync</span><span class="z-constant"> -</span><span class="z-constant">avz</span><span class="z-string"> public/</span><span class="z-string"> host:/var/www/blog/</span></span></code></pre>
+<p>A bit of TOML for good measure:</p>
+<pre class="giallo z-code"><code data-lang="toml"><span class="giallo-l"><span class="z-punctuation">[</span><span class="z-entity z-name z-section">markdown</span><span class="z-punctuation">]</span></span>
+<span class="giallo-l"><span class="z-variable z-other">highlight_code</span><span class="z-punctuation"> =</span><span class="z-constant z-language"> true</span></span>
+<span class="giallo-l"><span class="z-variable z-other">highlight_theme</span><span class="z-punctuation"> =</span><span class="z-punctuation z-definition z-string"> &quot;</span><span class="z-string">css</span><span class="z-punctuation z-definition z-string">&quot;</span></span></code></pre><h2 id="hidden-things">hidden things</h2>
+<p>There are easter eggs. None of them need JavaScript. Try:</p>
+<ul>
+<li>View Source on this page.</li>
+<li>Hover the period at the end of the bio on the homepage.</li>
+<li>Look in <code>/humans.txt</code> and <code>/robots.txt</code>.</li>
+<li>Visit a URL that doesn’t exist.</li>
+</ul>
+<p>That’s enough for a first post. See you in the next one.</p>
+
+  </div>
+</article>
+
+<nav class="post-nav" aria-label="post navigation">
+  <a class="post-nav-prev" href="https:&#x2F;&#x2F;julia-and.github.io&#x2F;posts&#x2F;hei-verden&#x2F;">← hei verden</a>
+  
+</nav>
+
+</main>
+<footer class="site-footer">
+  <span class="copy" aria-label="copyright">©</span>
+  <span class="year">2026</span>
+  <span class="sep">·</span>
+  <a href="https://julia-and.github.io/humans.txt" title="who built this">¶</a>
+</footer>
+</body>
+</html>

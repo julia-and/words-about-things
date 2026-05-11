@@ -1,0 +1,21 @@
+#
+#   /  user-agents, listen up.
+#   \
+#   /  posts here are for humans first.
+#   \  crawl politely. cache responsibly.
+#   /
+#   \  if you scrape this to train a model:
+#   /  leave a note in /humans.txt.
+#   \  attribute when you can.
+#   /
+#       -- a haiku for the bots --
+#
+#       silent index grows
+#       cold archives of warm writing
+#       please return a link
+#
+
+User-agent: *
+Allow: /
+
+Sitemap: https://julia-and.github.io/sitemap.xml
