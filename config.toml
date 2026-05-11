@@ -1,4 +1,3 @@
-# TODO: replace USERNAME with your GitHub handle (or swap in a custom domain).
 base_url = "https://julia-and.github.io/words-about-things"
 title = "words about things"
 description = "like, you know... whatever"
