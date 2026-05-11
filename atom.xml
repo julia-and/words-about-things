@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>words about things</title>
-    <subtitle>notes and code</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://julia-and.github.io/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://julia-and.github.io"/>
+    <subtitle>like, you know... whatever</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://julia-and.github.io/words-about-things/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2026-05-12T00:00:00+00:00</updated>
-    <id>https://julia-and.github.io/atom.xml</id>
+    <id>https://julia-and.github.io/words-about-things/atom.xml</id>
     <entry xml:lang="en">
         <title>hei verden</title>
         <published>2026-05-12T00:00:00+00:00</published>
@@ -20,10 +20,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://julia-and.github.io/posts/hei-verden/"/>
-        <id>https://julia-and.github.io/posts/hei-verden/</id>
+        <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things/posts/hei-verden/"/>
+        <id>https://julia-and.github.io/words-about-things/posts/hei-verden/</id>
         
-        <content type="html" xml:base="https://julia-and.github.io/posts/hei-verden/">&lt;p&gt;Noen innlegg her er på norsk, andre på engelsk. Det er ingen oversettelser — bare det språket som passet best da jeg skrev.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://julia-and.github.io/words-about-things/posts/hei-verden/">&lt;p&gt;Noen innlegg her er på norsk, andre på engelsk. Det er ingen oversettelser — bare det språket som passet best da jeg skrev.&lt;&#x2F;p&gt;
 &lt;p&gt;Sjekk &lt;code&gt;&amp;lt;html lang=&quot;no&quot;&amp;gt;&lt;&#x2F;code&gt; i kildekoden på denne siden. Det hjelper skjermlesere, søkemotorer og oversettelsesverktøy med å forstå hva som faktisk er skrevet her.&lt;&#x2F;p&gt;
 &lt;pre class=&quot;giallo z-code&quot;&gt;&lt;code data-lang=&quot;python&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-storage z-type&quot;&gt;def&lt;&#x2F;span&gt;&lt;span class=&quot;z-entity z-name&quot;&gt; hilse&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter&quot;&gt;navn&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation&quot;&gt;:&lt;&#x2F;span&gt;&lt;span class=&quot;z-support&quot;&gt; str&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation&quot;&gt;)&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation&quot;&gt; -&amp;gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-support&quot;&gt; str&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation&quot;&gt;:&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;span class=&quot;giallo-l&quot;&gt;&lt;span class=&quot;z-keyword&quot;&gt;    return&lt;&#x2F;span&gt;&lt;span class=&quot;z-storage z-type&quot;&gt; f&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;hei, &lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt;{&lt;&#x2F;span&gt;&lt;span&gt;navn&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant&quot;&gt;}&lt;&#x2F;span&gt;&lt;span class=&quot;z-string&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
@@ -46,10 +46,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://julia-and.github.io/posts/hello-world/"/>
-        <id>https://julia-and.github.io/posts/hello-world/</id>
+        <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things/posts/hello-world/"/>
+        <id>https://julia-and.github.io/words-about-things/posts/hello-world/</id>
         
-        <content type="html" xml:base="https://julia-and.github.io/posts/hello-world/">&lt;p&gt;A new site, built with &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt;: a single Rust binary that takes Markdown and templates and gives back a folder of HTML. Zero JavaScript ships to your browser. Zero cookies are set. Syntax highlighting happens at build time — what you’re about to see is just &lt;code&gt;&amp;lt;span&amp;gt;&lt;&#x2F;code&gt; tags and CSS.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://julia-and.github.io/words-about-things/posts/hello-world/">&lt;p&gt;A new site, built with &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt;: a single Rust binary that takes Markdown and templates and gives back a folder of HTML. Zero JavaScript ships to your browser. Zero cookies are set. Syntax highlighting happens at build time — what you’re about to see is just &lt;code&gt;&amp;lt;span&amp;gt;&lt;&#x2F;code&gt; tags and CSS.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;why-bother&quot;&gt;why bother&lt;&#x2F;h2&gt;
 &lt;p&gt;I like the &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;ar.al&#x2F;2020&#x2F;08&#x2F;07&#x2F;what-is-the-small-web&#x2F;&quot;&gt;small web&lt;&#x2F;a&gt;. Pages that load instantly, work without consent banners, and don’t watch you back. This place is a notebook for code, longer-form thinking, and the occasional log entry.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;a-snippet-because-we-have-to-test-it&quot;&gt;a snippet, because we have to test it&lt;&#x2F;h2&gt;
