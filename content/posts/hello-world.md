@@ -11,7 +11,7 @@ A new site, built with [Zola][zola]: a single Rust binary that takes Markdown an
 
 ## why bother
 
-I like the [small web][smol]. Pages that load instantly, work without consent banners, and don't watch you back. This place is a notebook for code, longer-form thinking, and the occasional log entry.
+I like the [small web][smol]. Pages that load {{ wotd(text="instantly") }}, work without consent banners, and don't watch you back. This place is a notebook for code, longer-form thinking, and the occasional log entry.
 
 ## a snippet, because we have to test it
 

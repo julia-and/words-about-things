@@ -95,3 +95,162 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+/*  (4)  word-of-the-day — subtly marked link  */
+.wotd {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--muted);
+  transition: color 0.3s, border-bottom-color 0.3s;
+}
+.wotd:hover {
+  color: var(--love);
+  border-bottom-color: var(--love);
+}
+
+/*  (5)  click → confetti via :target  */
+.confetti-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 9999;
+}
+.confetti-overlay:target {
+  display: block;
+  // garland sway (~11s) is the longest sub-animation. Fade everything out
+  // after it finishes so the corners and top don't sit there decorated.
+  animation: party-clear 12s linear forwards;
+}
+@keyframes party-clear {
+  0%, 92% { opacity: 1; }
+  100%    { opacity: 0; }
+}
+
+.confetti {
+  position: absolute;
+  top: -10vh;
+  width: 10px;
+  height: 14px;
+  opacity: 0;
+  transform: translate3d(0, 0, 0) rotate(0deg);
+  animation: confetti-fall 2.4s cubic-bezier(0.12, 0.6, 0.4, 1) forwards;
+  will-change: transform, opacity;
+}
+
+.c-0 { background: var(--love); }
+.c-1 { background: var(--gold); }
+.c-2 { background: var(--rose); }
+.c-3 { background: var(--foam); }
+.c-4 { background: var(--iris); }
+
+.s-0 { border-radius: 0; }
+.s-1 { border-radius: 50%; width: 8px; height: 8px; }
+.s-2 { border-radius: 1px; width: 4px; height: 16px; }
+
+@keyframes confetti-fall {
+  0%   { opacity: 0; transform: translate3d(0, 0, 0) rotate(0deg); }
+  6%   { opacity: 1; }
+  88%  { opacity: 1; }
+  100% { opacity: 0; transform: translate3d(var(--drift), 115vh, 0) rotate(var(--rot)); }
+}
+
+/*  (6)  the word itself does a turnstile spin while celebration is on  */
+:root:has(#kaboom:target) .wotd {
+  display: inline-block;
+  animation: wotd-turnstile 1.3s linear 3 both;
+}
+@keyframes wotd-turnstile {
+  0%   { transform: perspective(400px) rotateY(0deg);   color: inherit; }
+  50%  { transform: perspective(400px) rotateY(180deg); color: var(--love); }
+  100% { transform: perspective(400px) rotateY(360deg); color: inherit; }
+}
+
+/*  (7)  big "WORD OF THE DAY" banner tumbles down with the confetti  */
+.wotd-banner {
+  position: absolute;
+  left: 50%;
+  top: -12vh;
+  font-family: var(--ff-display);
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  line-height: 1;
+  font-weight: 700;
+  color: var(--love);
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  text-shadow:
+    0.04em 0.04em 0 var(--gold),
+    0.08em 0.08em 0 var(--iris);
+  opacity: 0;
+  animation: banner-tumble 3.4s cubic-bezier(0.18, 0.65, 0.4, 1) forwards;
+}
+@keyframes banner-tumble {
+  0%   { transform: translate(-50%, 0)     rotate(0deg);   opacity: 0; }
+  5%   { opacity: 1; }
+  88%  { opacity: 1; }
+  100% { transform: translate(-50%, 122vh) rotate(720deg); opacity: 0; }
+}
+
+/*  (8)  four corner horns vibrating with fanfare  */
+.horn-slot {
+  position: fixed;
+  width: clamp(8rem, 14vw, 12rem);
+  height: clamp(8rem, 14vw, 12rem);
+  pointer-events: none;
+  --base-rot: 0deg;
+}
+.horn-tl { top: -1.5rem; left: -1.5rem; --base-rot:   45deg; }
+.horn-tr { top: -1.5rem; right: -1.5rem; --base-rot: 135deg; }
+.horn-br { bottom: -1.5rem; right: -1.5rem; --base-rot: 225deg; }
+.horn-bl { bottom: -1.5rem; left: -1.5rem; --base-rot: 315deg; }
+
+.horn {
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  animation: horn-blast 0.42s ease-in-out 12 both;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.18));
+}
+@keyframes horn-blast {
+  0%, 100% { transform: rotate(var(--base-rot)) scale(1); }
+  20%      { transform: rotate(calc(var(--base-rot) + 5deg))  scale(1.06); }
+  40%      { transform: rotate(calc(var(--base-rot) - 5deg))  scale(0.97); }
+  60%      { transform: rotate(calc(var(--base-rot) + 4deg))  scale(1.08); }
+  80%      { transform: rotate(calc(var(--base-rot) - 3deg))  scale(1.00); }
+}
+
+/*  (9)  garland strung across the top, swaying  */
+.garland-row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-inline: 1rem;
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.15));
+}
+.garland-piece {
+  width: clamp(6rem, 12vw, 10rem);
+  height: auto;
+  transform-origin: top center;
+  animation: garland-sway 2.6s ease-in-out 4 both;
+}
+.garland-piece.g-0 { animation-delay: 0s;   }
+.garland-piece.g-1 { animation-delay: 0.18s; }
+.garland-piece.g-2 { animation-delay: 0.36s; }
+.garland-piece.g-3 { animation-delay: 0.54s; }
+.garland-piece.g-4 { animation-delay: 0.72s; }
+@keyframes garland-sway {
+  0%, 100% { transform: rotate(0deg) translateY(0); }
+  25%      { transform: rotate(6deg) translateY(2px); }
+  50%      { transform: rotate(0deg) translateY(0); }
+  75%      { transform: rotate(-6deg) translateY(2px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .confetti-overlay:target { display: none; }
+  :root:has(#kaboom:target) .wotd { animation: none; }
+}

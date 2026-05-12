@@ -2,8 +2,12 @@
 
 {% block content %}
 <section class="hero">
-  <h1 class="hero-title">{{ config.title }}</h1>
-  <p class="bio">{{ config.description }}<span class="bio-end">.</span></p>
+  <h1 class="hero-grid" lang="en">
+    <span class="hero-word w-words"><span class="en">words</span><span class="no" aria-hidden="true" lang="no">ord</span></span>
+    <span class="hero-word w-about"><span class="en">about</span><span class="no" aria-hidden="true" lang="no">om</span></span>
+    <span class="hero-word w-things"><span class="en">things</span><span class="no" aria-hidden="true" lang="no">ting</span></span>
+    <span class="hero-tagline bio">{{ config.description }}<span class="bio-end">.</span></span>
+  </h1>
 </section>
 
 <section class="post-list-wrap">

@@ -123,22 +123,66 @@ body {
 /* === HERO === */
 .hero {
   margin-bottom: 4rem;
+  margin-inline: -0.5rem; /* bleed */
 }
 
-.hero-title {
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  column-gap: clamp(0.5rem, 3vw, 2.5rem);
+  row-gap: 0.25rem;
+  align-items: start;
+  margin: 0;
+  font-weight: normal; // override h1 default
+}
+
+.hero-word {
   font-family: var(--ff-display);
-  font-size: clamp(3.5rem, 14vw, 8rem);
+  font-size: clamp(3rem, 13vw, 8.5rem);
   line-height: 0.85;
   letter-spacing: -0.025em;
-  margin: 0 0 1.25rem;
-  margin-inline: -0.5rem; /* bleed */
   color: var(--love);
+  position: relative;
+  display: block;
+  white-space: nowrap;
+}
+
+.hero-word .en,
+.hero-word .no {
+  display: inline-block;
+  transition: opacity 0.45s ease;
+}
+.hero-word .no {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+// hovering any title word swaps all three to norsk
+.hero-grid:has(.hero-word:hover) .hero-word .en {
+  opacity: 0;
+}
+.hero-grid:has(.hero-word:hover) .hero-word .no {
+  opacity: 1;
+}
+
+.hero-tagline {
+  align-self: end;
+  padding-bottom: 0.5em;
+  padding-left: 0.25rem;
 }
 
 .bio {
-  font-size: 1.15rem;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-family: var(--ff-sans);
+  font-weight: normal;
+  letter-spacing: normal;
+  text-transform: none;
+  line-height: 1.45;
   margin: 0;
-  max-width: 50ch;
+  max-width: 100%;
 }
 
 /* === SECTIONS / LABELS === */
