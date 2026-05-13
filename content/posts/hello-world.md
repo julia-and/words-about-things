@@ -9,7 +9,7 @@ tags = ["meta"]
 
 ## Who
 
-I'm Julia. I'm American, and a recent immigrant to Oslo. I work as a software engineer.
+I'm Julia. I'm American, and a recent {{ wotd(text="immigrant") }} to Oslo. I work as a software engineer.
 
 ## What
 

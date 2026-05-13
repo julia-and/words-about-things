@@ -51,7 +51,7 @@ OK, enough history. Let's stick C programmers in Abstraction Level 1. They still
 
 High-level language programmers (FORTRAN, COBOL... Java, C#, Javascript, etc) are at Abstraction Level 2. They (usually) don't need to know what specific hardware their code is running on, much less how that hardware works.
 
-Abstraction Level 2 is the world I've lived in for ~20 years. It is comfortable, and I have been very productive here. Occasionally I've dabbled in AL1-type work, and sometimes wish I had more opportunity to grow my knowledge there, but I accept that I will never be an expert in low-level systems work.
+Abstraction Level 2 is the world I've lived in for ~20 years. It is comfortable, and I have been very productive here. Occasionally I've dabbled in AL1-type work, and sometimes wish I had more {{ wotd(text="opportunity") }} to grow my knowledge there, but I accept that I will never be an expert in low-level systems work.
 
 Agentic coding gives us a new level, Abstraction Level 3. In the near future, agentic programmers will no longer need to care about programming language tech stack that underlies what they are building: the AI abstracts that away. If you've read the history above, the arguments against AI in software engineering are pretty similar to those of systems programmers when FORTRAN was introduced.
 

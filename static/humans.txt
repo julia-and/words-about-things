@@ -2,16 +2,16 @@
 
     Author       : julia
     Site         : (this one)
-    Contact      : (TODO -- add an email or mastodon handle)
+    Contact      : julia-and-blog@mailbox.org
 
 /* SITE */
 
-    Last update  : 2026-05-11
-    Language     : English
+    Last update  : 2026-05-13
+    Language     : English, dårlig norsk
     Doctype      : HTML5
     Standards    : HTML5, CSS3, RSS/Atom
     Components   : Zola (SSG), Rose Pine (palette),
-                   Pilowlava by Velvetyne (display face),
+                   Facade by Velvetyne (display face),
                    system stacks (body, mono)
     Software     : a text editor, a terminal, some patience
     JavaScript   : none, deliberately
