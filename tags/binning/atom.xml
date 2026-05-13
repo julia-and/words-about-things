@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title>words about things</title>
+    <title>words about things - binning</title>
     <subtitle>like, you know... whatever</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://julia-and.github.io/words-about-things/atom.xml"/>
+    <link rel="self" type="application/atom+xml" href="https://julia-and.github.io/words-about-things/tags/binning/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2026-05-12T00:00:00+00:00</updated>
-    <id>https://julia-and.github.io/words-about-things/atom.xml</id>
+    <id>https://julia-and.github.io/words-about-things/tags/binning/atom.xml</id>
     <entry xml:lang="en">
         <title>AI Thoughts (part 1)</title>
         <published>2026-05-12T00:00:00+00:00</published>
@@ -53,38 +53,6 @@
 &lt;p&gt;Abstraction Level 2 is the world I’ve lived in for ~20 years. It is comfortable, and I have been very productive here. Occasionally I’ve dabbled in AL1-type work, and sometimes wish I had more opportunity to grow my knowledge there, but I accept that I will never be an expert in low-level systems work.&lt;&#x2F;p&gt;
 &lt;p&gt;Agentic coding gives us a new level, Abstraction Level 3. In the near future, agentic programmers will no longer need to care about programming language tech stack that underlies what they are building: the AI abstracts that away. If you’ve read the history above, the arguments against AI in software engineering are pretty similar to those of systems programmers when FORTRAN was introduced.&lt;&#x2F;p&gt;
 &lt;p&gt;Yes, there are genuine concerns, some of which I will describe in follow-up posts. But at its most basic: Agentic programmers are to high-level programmers what high-level programmers are to low-level programmers–a new level of abstraction that over time will EXPAND the industry.&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>hello, world</title>
-        <published>2026-05-11T00:00:00+00:00</published>
-        <updated>2026-05-11T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things/posts/hello-world/"/>
-        <id>https://julia-and.github.io/words-about-things/posts/hello-world/</id>
-        
-        <content type="html" xml:base="https://julia-and.github.io/words-about-things/posts/hello-world/">&lt;h2 id=&quot;who&quot;&gt;Who&lt;&#x2F;h2&gt;
-&lt;p&gt;I’m Julia. I’m American, and a recent immigrant to Oslo. I work as a software engineer.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;what&quot;&gt;What&lt;&#x2F;h2&gt;
-&lt;p&gt;General musings on software engineering and AI and life in Norway. Perhaps occasional short stories. Jeg vil kanskje skrive på norsk av og til–du kan hoppe over de innleggene, med mindre du vil lide.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;where&quot;&gt;Where&lt;&#x2F;h2&gt;
-&lt;p&gt;Right here. https:&#x2F;&#x2F;julia-and.github.io&#x2F;words-about-things&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;why&quot;&gt;Why&lt;&#x2F;h2&gt;
-&lt;p&gt;A colleague said he might read my blog if I made one. I haven’t even launched and I already have one reader! Amazing growth!&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;when&quot;&gt;When&lt;&#x2F;h2&gt;
-&lt;p&gt;I will try to make one post a week.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;how&quot;&gt;How&lt;&#x2F;h2&gt;
-&lt;p&gt;Posts are hand-written by me, and never filtered through an AI.&lt;&#x2F;p&gt;
-&lt;p&gt;The site template itself I generated with Claude Code. It’s built with &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt;. Zero JavaScript ships to your browser. Zero cookies are set.&lt;&#x2F;p&gt;
 </content>
         
     </entry>
