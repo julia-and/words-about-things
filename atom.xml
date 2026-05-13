@@ -50,7 +50,8 @@
 &lt;h2 id=&quot;categorization&quot;&gt;Categorization&lt;&#x2F;h2&gt;
 &lt;p&gt;OK, enough history. Let’s stick C programmers in Abstraction Level 1. They still need to know the hardware pretty well, but at a more theoretical level rather than practical level. AL1 can also include experts in fields like computer graphics (shader programming), machine learning (massively parallel computation), etc.&lt;&#x2F;p&gt;
 &lt;p&gt;High-level language programmers (FORTRAN, COBOL… Java, C#, Javascript, etc) are at Abstraction Level 2. They (usually) don’t need to know what specific hardware their code is running on, much less how that hardware works.&lt;&#x2F;p&gt;
-&lt;p&gt;Abstraction Level 2 is the world I’ve lived in for ~20 years. It is comfortable, and I have been very productive here. Occasionally I’ve dabbled in AL1-type work, and sometimes wish I had more opportunity to grow my knowledge there, but I accept that I will never be an expert in low-level systems work.&lt;&#x2F;p&gt;
+&lt;p&gt;Abstraction Level 2 is the world I’ve lived in for ~20 years. It is comfortable, and I have been very productive here. Occasionally I’ve dabbled in AL1-type work, and sometimes wish I had more &lt;a class=&quot;wotd&quot; href=&quot;#kaboom&quot;&gt;opportunity&lt;&#x2F;a&gt;
+ to grow my knowledge there, but I accept that I will never be an expert in low-level systems work.&lt;&#x2F;p&gt;
 &lt;p&gt;Agentic coding gives us a new level, Abstraction Level 3. In the near future, agentic programmers will no longer need to care about programming language tech stack that underlies what they are building: the AI abstracts that away. If you’ve read the history above, the arguments against AI in software engineering are pretty similar to those of systems programmers when FORTRAN was introduced.&lt;&#x2F;p&gt;
 &lt;p&gt;Yes, there are genuine concerns, some of which I will describe in follow-up posts. But at its most basic: Agentic programmers are to high-level programmers what high-level programmers are to low-level programmers–a new level of abstraction that over time will EXPAND the industry.&lt;&#x2F;p&gt;
 </content>
@@ -73,7 +74,8 @@
         <id>https://julia-and.github.io/words-about-things/posts/hello-world/</id>
         
         <content type="html" xml:base="https://julia-and.github.io/words-about-things/posts/hello-world/">&lt;h2 id=&quot;who&quot;&gt;Who&lt;&#x2F;h2&gt;
-&lt;p&gt;I’m Julia. I’m American, and a recent immigrant to Oslo. I work as a software engineer.&lt;&#x2F;p&gt;
+&lt;p&gt;I’m Julia. I’m American, and a recent &lt;a class=&quot;wotd&quot; href=&quot;#kaboom&quot;&gt;immigrant&lt;&#x2F;a&gt;
+ to Oslo. I work as a software engineer.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;what&quot;&gt;What&lt;&#x2F;h2&gt;
 &lt;p&gt;General musings on software engineering and AI and life in Norway. Perhaps occasional short stories. Jeg vil kanskje skrive på norsk av og til–du kan hoppe over de innleggene, med mindre du vil lide.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;where&quot;&gt;Where&lt;&#x2F;h2&gt;

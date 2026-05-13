@@ -24,7 +24,8 @@
         <id>https://julia-and.github.io/words-about-things/posts/hello-world/</id>
         
         <content type="html" xml:base="https://julia-and.github.io/words-about-things/posts/hello-world/">&lt;h2 id=&quot;who&quot;&gt;Who&lt;&#x2F;h2&gt;
-&lt;p&gt;I’m Julia. I’m American, and a recent immigrant to Oslo. I work as a software engineer.&lt;&#x2F;p&gt;
+&lt;p&gt;I’m Julia. I’m American, and a recent &lt;a class=&quot;wotd&quot; href=&quot;#kaboom&quot;&gt;immigrant&lt;&#x2F;a&gt;
+ to Oslo. I work as a software engineer.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;what&quot;&gt;What&lt;&#x2F;h2&gt;
 &lt;p&gt;General musings on software engineering and AI and life in Norway. Perhaps occasional short stories. Jeg vil kanskje skrive på norsk av og til–du kan hoppe over de innleggene, med mindre du vil lide.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;where&quot;&gt;Where&lt;&#x2F;h2&gt;
