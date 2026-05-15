@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>words about things</title>
-    <subtitle>like, you know... whatever</subtitle>
+    <subtitle>musings on the software industry, life in norway, and more</subtitle>
     <link rel="self" type="application/atom+xml" href="https://julia-and.github.io/words-about-things/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2026-05-12T00:00:00+00:00</updated>
     <id>https://julia-and.github.io/words-about-things/atom.xml</id>
     <entry xml:lang="en">
-        <title>AI Thoughts (part 1)</title>
+        <title>AI thoughts</title>
         <published>2026-05-12T00:00:00+00:00</published>
         <updated>2026-05-12T00:00:00+00:00</updated>
         
@@ -36,7 +36,7 @@
 &lt;li&gt;Wait patiently&lt;&#x2F;li&gt;
 &lt;li&gt;If the program failed, go back to #2. If the results are wrong, go back to #2. If the results are correct, maybe start over for your next program.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;p&gt;The programmer had to fully visualize their program before the computer ever saw a single bit. You can be absolutely certain that they understood every instruction, every path that that program could take.&lt;&#x2F;p&gt;
+&lt;p&gt;The programmer had to fully visualize their program before the computer ever saw a single bit. It took days to weeks for even relatively simple programs. You can be absolutely certain that they understood every instruction, every path that that program could take.&lt;&#x2F;p&gt;
 &lt;p&gt;Eventually, the Next Big Thing appears: assembly language. Short 3- or 4-character mnemonics may not sound like a huge jump from raw hexadecimal, but it made programs so significantly easier to read and write. And it is just a thin abstraction layer over machine code–the programmer still has absolute control over what instructions will be executed.&lt;&#x2F;p&gt;
 &lt;p&gt;Let’s call folks that work in assembly or machine code Abstraction Level 0. They operate as close to the hardware as possible (usually, without needing a soldering iron). They must have a deep understanding of the hardware itself.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;enter-fortran&quot;&gt;Enter FORTRAN&lt;&#x2F;h2&gt;
@@ -54,6 +54,15 @@
  to grow my knowledge there, but I accept that I will never be an expert in low-level systems work.&lt;&#x2F;p&gt;
 &lt;p&gt;Agentic coding gives us a new level, Abstraction Level 3. In the near future, agentic programmers will no longer need to care about programming language tech stack that underlies what they are building: the AI abstracts that away. If you’ve read the history above, the arguments against AI in software engineering are pretty similar to those of systems programmers when FORTRAN was introduced.&lt;&#x2F;p&gt;
 &lt;p&gt;Yes, there are genuine concerns, some of which I will describe in follow-up posts. But at its most basic: Agentic programmers are to high-level programmers what high-level programmers are to low-level programmers–a new level of abstraction that over time will EXPAND the industry.&lt;&#x2F;p&gt;
+&lt;p&gt;Just as there are still hardware specialists writing assembly code, and Linux kernel developers or embedded systems engineers writing C, we will continue to have experts who know and work with high-level languages and frameworks day-to-day. They may become a smaller percentage of the industry–many will switch to AL3 agentic coding–but we will still need AL2 experts.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tldr&quot;&gt;TLDR&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Abstraction level&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Date introduced&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Paradigm&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;AL0:&lt;&#x2F;strong&gt; Machine Code &amp;amp; Assembly&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;1940s&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Direct Hardware Manipulation&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Operating as close to the hardware as possible without a soldering iron.\nRequires deep understanding of the physical hardware, translating logic into literal bits or short mnemonics.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;AL1:&lt;&#x2F;strong&gt; Systems Languages (C, Rust, etc.)&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;1970s&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Deterministic &#x2F; Portable Assembly&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Provides convenient high-level syntax with zero hidden run-time behaviors.\nRequires theoretical hardware knowledge. Used for OS kernels, computer graphics (shaders), embedded systems, etc.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;AL2:&lt;&#x2F;strong&gt; High-Level Languages (FORTRAN, Java, JS)&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;1950s&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Application Programming&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Completely abstracts away the specific hardware the code runs on.\nAllows experts to focus day-to-day on business logic, frameworks, and architecture.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;AL3:&lt;&#x2F;strong&gt; Agentic AI Coding &lt;span class=&quot;new-tag&quot;&gt;new!&lt;&#x2F;span&gt;
+&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;2020s&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Intent-Driven &#x2F; Generative&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Abstracts away the underlying programming language and tech stack.\nThe human acts as the director, providing intent and logic while the AI handles the syntax and implementation.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 </content>
         
     </entry>
