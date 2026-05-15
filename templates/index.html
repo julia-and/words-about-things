@@ -9,8 +9,8 @@
     </span>
     <span class="hero-row hero-bottom">
       <span class="hero-word w-things"><span class="en">things</span><span class="no" aria-hidden="true" lang="no">ting</span></span>
-      <span class="hero-tagline bio">{{ config.description }}<span class="bio-end">.</span></span>
     </span>
+    <span class="hero-tagline bio">{{ config.description }}<span class="bio-end" aria-hidden="true">🌸</span></span>
   </h1>
 </section>
 
@@ -23,7 +23,10 @@
     <li>
       <a href="{{ page.permalink }}">
         <time datetime="{{ page.date }}">{{ page.date | date(format="%Y · %m · %d") }}</time>
-        <span class="post-title">{{ page.title }}</span>
+        <span class="post-title-wrap">
+          <span class="post-title">{{ page.title }}</span>
+          {% if page.extra.subtitle %}<span class="post-list-subtitle">{{ page.extra.subtitle }}</span>{% endif %}
+        </span>
         {% if page.extra.lang and page.extra.lang != config.default_language %}<span class="lang-chip">[{{ page.extra.lang | upper }}]</span>{% endif %}
       </a>
     </li>

@@ -1,7 +1,11 @@
 +++
-title = "AI Thoughts (part 1)"
+title = "AI thoughts"
 date = 2026-05-12
-description = "Some musings on how AI is affecting the software industry"
+description = "some musings on how AI is affecting the software industry"
+
+[extra]
+subtitle = "part 1"
+series = "AI thoughts"
 
 [taxonomies]
 tags = ["ai", "binning", "history"]
@@ -23,7 +27,7 @@ To most of today's working software folks, the process is almost unthinkably obt
 6. Wait patiently
 7. If the program failed, go back to #2. If the results are wrong, go back to #2. If the results are correct, maybe start over for your next program.
 
-The programmer had to fully visualize their program before the computer ever saw a single bit. You can be absolutely certain that they understood every instruction, every path that that program could take.
+The programmer had to fully visualize their program before the computer ever saw a single bit. It took days to weeks for even relatively simple programs. You can be absolutely certain that they understood every instruction, every path that that program could take.
 
 Eventually, the Next Big Thing appears: assembly language. Short 3- or 4-character mnemonics may not sound like a huge jump from raw hexadecimal, but it made programs so significantly easier to read and write. And it is just a thin abstraction layer over machine code--the programmer still has absolute control over what instructions will be executed.
 
@@ -56,3 +60,14 @@ Abstraction Level 2 is the world I've lived in for ~20 years. It is comfortable,
 Agentic coding gives us a new level, Abstraction Level 3. In the near future, agentic programmers will no longer need to care about programming language tech stack that underlies what they are building: the AI abstracts that away. If you've read the history above, the arguments against AI in software engineering are pretty similar to those of systems programmers when FORTRAN was introduced.
 
 Yes, there are genuine concerns, some of which I will describe in follow-up posts. But at its most basic: Agentic programmers are to high-level programmers what high-level programmers are to low-level programmers--a new level of abstraction that over time will EXPAND the industry.
+
+Just as there are still hardware specialists writing assembly code, and Linux kernel developers or embedded systems engineers writing C, we will continue to have experts who know and work with high-level languages and frameworks day-to-day. They may become a smaller percentage of the industry--many will switch to AL3 agentic coding--but we will still need AL2 experts.
+
+## TLDR
+
+| Abstraction level                                     | Date introduced | Paradigm                          | Description                                                                                                                                                                                   |
+| :---------------------------------------------------- | :-------------- | :-------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AL0:** Machine Code & Assembly                      | 1940s           | Direct Hardware Manipulation      | Operating as close to the hardware as possible without a soldering iron.\nRequires deep understanding of the physical hardware, translating logic into literal bits or short mnemonics.       |
+| **AL1:** Systems Languages (C, Rust, etc.)            | 1970s           | Deterministic / Portable Assembly | Provides convenient high-level syntax with zero hidden run-time behaviors.\nRequires theoretical hardware knowledge. Used for OS kernels, computer graphics (shaders), embedded systems, etc. |
+| **AL2:** High-Level Languages (FORTRAN, Java, JS)     | 1950s           | Application Programming           | Completely abstracts away the specific hardware the code runs on.\nAllows experts to focus day-to-day on business logic, frameworks, and architecture.                                        |
+| **AL3:** Agentic AI Coding {{ new_tag(text="new!") }} | 2020s           | Intent-Driven / Generative        | Abstracts away the underlying programming language and tech stack.\nThe human acts as the director, providing intent and logic while the AI handles the syntax and implementation.            |

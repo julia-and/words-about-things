@@ -7,6 +7,7 @@
 <article class="post">
   <header class="post-header">
     <h1 class="post-title-big">{{ page.title }}</h1>
+    {% if page.extra.subtitle %}<p class="post-subtitle">{{ page.extra.subtitle }}</p>{% endif %}
     <p class="post-meta">
       <time datetime="{{ page.date }}">{{ page.date | date(format="%Y · %m · %d") }}</time>
       {% if page.extra.lang and page.extra.lang != config.default_language %}
@@ -19,6 +20,21 @@
       {% endif %}
     </p>
   </header>
+
+  {% if page.extra.series %}
+  {% set posts_section = get_section(path="posts/_index.md") %}
+  {% set series_posts = posts_section.pages | filter(attribute="extra.series", value=page.extra.series) | sort(attribute="date") %}
+  {% if series_posts | length > 1 %}
+  <aside class="post-series" aria-label="series">
+    <p class="post-series-label">Part of: <span class="post-series-name">{{ page.extra.series }}</span></p>
+    <ol class="post-series-list">
+      {% for p in series_posts %}
+      <li>{% if p.permalink == page.permalink %}<span class="post-series-current" aria-current="page">{{ p.title }}</span>{% else %}<a href="{{ p.permalink }}">{{ p.title }}</a>{% endif %}</li>
+      {% endfor %}
+    </ol>
+  </aside>
+  {% endif %}
+  {% endif %}
 
   <div class="post-body">
     {{ page.content | safe }}

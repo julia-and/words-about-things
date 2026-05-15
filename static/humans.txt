@@ -7,7 +7,7 @@
 /* SITE */
 
     Last update  : 2026-05-13
-    Language     : English, dårlig norsk
+    Language     : english, sometimes norsk
     Doctype      : HTML5
     Standards    : HTML5, CSS3, RSS/Atom
     Components   : Zola (SSG), Rose Pine (palette),
