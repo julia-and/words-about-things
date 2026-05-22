@@ -1,0 +1,1 @@
+<span class="hover-gif"{% if width %} style="max-width: {{ width }}"{% endif %} tabindex="0"><img class="hover-gif-still" src="{{ get_url(path=still) }}" alt="{{ alt | default(value='') }}" loading="lazy" decoding="async"><img class="hover-gif-anim" src="{{ get_url(path=gif) }}" alt="" aria-hidden="true" loading="lazy" decoding="async"></span>

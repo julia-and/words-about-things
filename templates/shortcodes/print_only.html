@@ -1,0 +1,20 @@
+{% if fit %}{% set chars = text | length %}{% set vw = chars * 46 + 552 %}{% set
+half = vw / 2 %}<svg
+  class="print-only-fit"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 {{ vw }} 120"
+  preserveAspectRatio="xMidYMid meet"
+  role="presentation"
+>
+  <text
+    x="{{ half }}"
+    y="92"
+    font-size="80"
+    text-anchor="middle"
+    fill="currentColor"
+  >
+    🖨️🖨️🖨️ &nbsp;{{ text }}&nbsp; 🖨️🖨️🖨️
+  </text></svg
+>{% else %}<span class="print-only"
+  >🖨️🖨️🖨️ &nbsp;{{ text | safe }}&nbsp; 🖨️🖨️🖨️</span
+>{% endif %}

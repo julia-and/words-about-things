@@ -1,15 +1,18 @@
 +++
-title = "AI thoughts"
+title = "Categorizing agentic AI software development"
 date = 2026-05-12
 description = "some musings on how AI is affecting the software industry"
+aliases = ["/posts/ai-thoughts-pt1/"]
 
 [extra]
-subtitle = "part 1"
+subtitle = "AI thoughts, part 1"
 series = "AI thoughts"
 
 [taxonomies]
 tags = ["ai", "binning", "history"]
 +++
+
+{{ print_only(text="05 5F E1 04 22 CA 29 C4 93 3F 95 05 2B 79 2A B2") }}
 
 I've been thinking about how agentic AI coding fits into the hierarchy of software engineers... (because for whatever reason, everything needs to fit in its own little slot for me to be comfortable with the world).
 
@@ -65,9 +68,9 @@ Just as there are still hardware specialists writing assembly code, and Linux ke
 
 ## TLDR
 
-| Abstraction level                                     | Date introduced | Paradigm                          | Description                                                                                                                                                                                   |
-| :---------------------------------------------------- | :-------------- | :-------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **AL0:** Machine Code & Assembly                      | 1940s           | Direct Hardware Manipulation      | Operating as close to the hardware as possible without a soldering iron.\nRequires deep understanding of the physical hardware, translating logic into literal bits or short mnemonics.       |
-| **AL1:** Systems Languages (C, Rust, etc.)            | 1970s           | Deterministic / Portable Assembly | Provides convenient high-level syntax with zero hidden run-time behaviors.\nRequires theoretical hardware knowledge. Used for OS kernels, computer graphics (shaders), embedded systems, etc. |
-| **AL2:** High-Level Languages (FORTRAN, Java, JS)     | 1950s           | Application Programming           | Completely abstracts away the specific hardware the code runs on.\nAllows experts to focus day-to-day on business logic, frameworks, and architecture.                                        |
-| **AL3:** Agentic AI Coding {{ new_tag(text="new!") }} | 2020s           | Intent-Driven / Generative        | Abstracts away the underlying programming language and tech stack.\nThe human acts as the director, providing intent and logic while the AI handles the syntax and implementation.            |
+| Abstraction level                                     | Date introduced | Paradigm                          | Description                                                                                                                                                                                         |
+| :---------------------------------------------------- | :-------------- | :-------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AL0:** Machine Code & Assembly                      | 1940s           | Direct Hardware Manipulation      | Operating as close to the hardware as possible without a soldering iron.<br><br>Requires deep understanding of the physical hardware, translating logic into literal bits or short mnemonics.       |
+| **AL1:** Systems Languages (C, Rust, etc.)            | 1970s           | Deterministic / Portable Assembly | Provides convenient high-level syntax with zero hidden run-time behaviors.<br><br>Requires theoretical hardware knowledge. Used for OS kernels, computer graphics (shaders), embedded systems, etc. |
+| **AL2:** High-Level Languages (FORTRAN, Java, JS)     | 1950s           | Application Programming           | Completely abstracts away the specific hardware the code runs on.<br><br>Allows experts to focus day-to-day on business logic, frameworks, and architecture.                                        |
+| **AL3:** Agentic AI Coding {{ new_tag(text="new!") }} | 2020s           | Intent-Driven / Generative        | Abstracts away the underlying programming language and tech stack.<br><br>The human acts as the director, providing intent and logic while the AI handles the syntax and implementation.            |

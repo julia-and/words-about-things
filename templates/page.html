@@ -42,7 +42,7 @@
 </article>
 
 <nav class="post-nav" aria-label="post navigation">
-  {% if page.lower %}<a class="post-nav-prev" href="{{ page.lower.permalink }}">← {{ page.lower.title }}</a>{% endif %}
-  {% if page.higher %}<a class="post-nav-next" href="{{ page.higher.permalink }}">{{ page.higher.title }} →</a>{% endif %}
+  {% if page.higher %}<a class="post-nav-prev" href="{{ page.higher.permalink }}">← {{ page.higher.title }}</a>{% endif %}
+  {% if page.lower %}<a class="post-nav-next" href="{{ page.lower.permalink }}">{{ page.lower.title }} →</a>{% endif %}
 </nav>
 {% endblock %}

@@ -226,7 +226,7 @@
     0.04em 0.04em 0 var(--gold),
     0.08em 0.08em 0 var(--iris);
   opacity: 0;
-  animation: banner-tumble 3.4s cubic-bezier(0.18, 0.65, 0.4, 1) forwards;
+  animation: banner-tumble 7.5s cubic-bezier(0.18, 0.65, 0.4, 1) forwards;
 }
 @keyframes banner-tumble {
   0% {
@@ -346,6 +346,132 @@
   }
   75% {
     transform: rotate(-6deg) translateY(2px);
+  }
+}
+
+/*  (10)  hover a still image to reveal an animated gif  */
+.hover-gif {
+  display: inline-block;
+  position: relative;
+  line-height: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+}
+.hover-gif img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hover-gif-still {
+  transition: filter 0.5s ease;
+}
+.hover-gif-anim {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transform: scale(1.06);
+  transition:
+    opacity 0.45s ease,
+    transform 0.7s cubic-bezier(0.2, 0.8, 0.25, 1);
+  pointer-events: none;
+}
+.hover-gif:hover .hover-gif-anim,
+.hover-gif:focus-visible .hover-gif-anim {
+  opacity: 1;
+  transform: scale(1);
+}
+.hover-gif:hover .hover-gif-still {
+  filter: saturate(1.1);
+}
+.hover-gif:focus-visible {
+  box-shadow: 0 0 0 3px var(--love);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hover-gif-anim {
+    transform: none;
+    transition: opacity 0.25s ease;
+  }
+  .hover-gif:hover .hover-gif-anim,
+  .hover-gif:focus-visible .hover-gif-anim {
+    transform: none;
+  }
+}
+
+/*  (11)  glitch text — layered chromatic-aberration slices
+        port of fabiowallner's codepen ozZoYo: data-text twin
+        pseudo-layers, randomised clip keyframes built by a @for loop.
+        clip:rect(px) swapped for clip-path:inset(%) so it survives
+        any inline font size.  */
+.glitch {
+  position: relative;
+  display: inline-block;
+  color: inherit;
+}
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  background: var(--base);
+  overflow: hidden;
+}
+.glitch::before {
+  left: 3px;
+  text-shadow: -2px 0 var(--love);
+  animation: glitch-anim-1 2s linear infinite;
+}
+.glitch::after {
+  left: -3px;
+  text-shadow: -2px 0 var(--foam);
+  animation: glitch-anim-2 2s linear infinite;
+}
+
+/*  hover-gated variant — quiet plain text until hover / keyboard focus  */
+.glitch--hover {
+  cursor: pointer;
+  outline: none;
+}
+.glitch--hover::before,
+.glitch--hover::after {
+  opacity: 0;
+  animation-play-state: paused;
+  transition: opacity 0.12s steps(2);
+}
+.glitch--hover:hover::before,
+.glitch--hover:hover::after,
+.glitch--hover:focus-visible::before,
+.glitch--hover:focus-visible::after {
+  opacity: 1;
+  animation-play-state: running;
+}
+
+@keyframes glitch-anim-1 {
+  @for $i from 0 through 20 {
+    $t: random(100) - 1;
+    $b: random(100) - 1;
+    #{$i * 5}% {
+      clip-path: inset(#{$t + "%"} 0 #{$b + "%"} 0);
+    }
+  }
+}
+@keyframes glitch-anim-2 {
+  @for $i from 0 through 20 {
+    $t: random(100) - 1;
+    $b: random(100) - 1;
+    #{$i * 5}% {
+      clip-path: inset(#{$t + "%"} 0 #{$b + "%"} 0);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glitch::before,
+  .glitch::after {
+    display: none;
   }
 }
 
