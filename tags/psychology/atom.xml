@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title>words about things - ai</title>
+    <title>words about things - psychology</title>
     <subtitle>musings on the software industry, life in norway, and more</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://julia-and.github.io/words-about-things/tags/ai/atom.xml"/>
+    <link rel="self" type="application/atom+xml" href="https://julia-and.github.io/words-about-things/tags/psychology/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2026-05-22T00:00:00+00:00</updated>
-    <id>https://julia-and.github.io/words-about-things/tags/ai/atom.xml</id>
+    <id>https://julia-and.github.io/words-about-things/tags/psychology/atom.xml</id>
     <entry xml:lang="en">
         <title>The IKEA effect and AI</title>
         <published>2026-05-22T00:00:00+00:00</published>
@@ -99,68 +99,6 @@
 &lt;p&gt;The vibe-coded project I worked on for a few weeks in March? It’s a personal note-taking app; I am writing this very post with it. It’s a fine tool, it does what I want, but I feel no ownership of–or attachment to–the code. You want to know the technical details? Well, I told the AI to use React and Typescript, and the (fantastic) &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;milkdown.dev&quot;&gt;Milkdown editor&lt;&#x2F;a&gt;. But I’m &lt;strong&gt;genuinely struggling&lt;&#x2F;strong&gt; to remember anything else… even other major npm packages (which were recommended by the AI). I haven’t even really looked at the code.&lt;&#x2F;p&gt;
 &lt;span class=&quot;glitch glitch--hover&quot; tabindex=&quot;0&quot; data-text=&quot;That&amp;#x27;s a bit concerning.&quot;&gt;That&amp;#x27;s a bit concerning.&lt;&#x2F;span&gt;
 &lt;p&gt;For those starting products and companies based on vibe-coded software today, how are they going to feel about their product in 5 or 10 years? Will the ownership effect be enough to sustain their interest? Does directing agents provide enough of an &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.hbs.edu&#x2F;ris&#x2F;Publication%20Files&#x2F;11-091.pdf&quot;&gt;IKEA effect&lt;&#x2F;a&gt; to reinforce that ownership effect?&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Categorizing agentic AI software development</title>
-        <published>2026-05-12T00:00:00+00:00</published>
-        <updated>2026-05-12T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things/posts/categorizing-agentic-ai-software-development/"/>
-        <id>https://julia-and.github.io/words-about-things/posts/categorizing-agentic-ai-software-development/</id>
-        
-        <content type="html" xml:base="https://julia-and.github.io/words-about-things/posts/categorizing-agentic-ai-software-development/">&lt;span class=&quot;print-only&quot;
-  &gt;🖨️🖨️🖨️ &amp;nbsp;05 5F E1 04 22 CA 29 C4 93 3F 95 05 2B 79 2A B2&amp;nbsp; 🖨️🖨️🖨️&lt;&#x2F;span
-&gt;
-&lt;p&gt;I’ve been thinking about how agentic AI coding fits into the hierarchy of software engineers… (because for whatever reason, everything needs to fit in its own little slot for me to be comfortable with the world).&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;fun-with-bits&quot;&gt;Fun with Bits&lt;&#x2F;h2&gt;
-&lt;p&gt;In the early days of digital computing, the OG programmers carefully planned their instructions on paper before meticulously translating them into machine code and entering them into room-sized computers. Eventually they got punch card technology, allowing them to store and feed-in larger programs faster, but essentially they were still &lt;em&gt;fiddling&lt;&#x2F;em&gt; with bits.&lt;&#x2F;p&gt;
-&lt;p&gt;To most of today’s working software folks, the process is almost unthinkably obtuse:&lt;&#x2F;p&gt;
-&lt;ol&gt;
-&lt;li&gt;Decide what the program needs to do (on paper)&lt;&#x2F;li&gt;
-&lt;li&gt;Pseudo-code (on paper)&lt;&#x2F;li&gt;
-&lt;li&gt;Translate to machine code (probably hexadecimal, on paper)&lt;&#x2F;li&gt;
-&lt;li&gt;Make your (paper) punch cards. (For the love of God, don’t forget to number them in order)&lt;&#x2F;li&gt;
-&lt;li&gt;When it is your turn, feed your punch cards into the computer&lt;&#x2F;li&gt;
-&lt;li&gt;Wait patiently&lt;&#x2F;li&gt;
-&lt;li&gt;If the program failed, go back to #2. If the results are wrong, go back to #2. If the results are correct, maybe start over for your next program.&lt;&#x2F;li&gt;
-&lt;&#x2F;ol&gt;
-&lt;p&gt;The programmer had to fully visualize their program before the computer ever saw a single bit. It took days to weeks for even relatively simple programs. You can be absolutely certain that they understood every instruction, every path that that program could take.&lt;&#x2F;p&gt;
-&lt;p&gt;Eventually, the Next Big Thing appears: assembly language. Short 3- or 4-character mnemonics may not sound like a huge jump from raw hexadecimal, but it made programs so significantly easier to read and write. And it is just a thin abstraction layer over machine code–the programmer still has absolute control over what instructions will be executed.&lt;&#x2F;p&gt;
-&lt;p&gt;Let’s call folks that work in assembly or machine code Abstraction Level 0. They operate as close to the hardware as possible (usually, without needing a soldering iron). They must have a deep understanding of the hardware itself.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;enter-fortran&quot;&gt;Enter FORTRAN&lt;&#x2F;h2&gt;
-&lt;p&gt;Computing was picking up steam in the early 1950s, but people with the high level of hardware-specific specialization needed to create programs were hard to come by. So… what if you create a tool that lets people program the computer with standard mathematical notation? At IBM, John Backus had this same question, and his team built the first versions of FORTRAN. But not without some controversy.&lt;&#x2F;p&gt;
-&lt;p&gt;Many programmers, especially &lt;em&gt;systems programmers&lt;&#x2F;em&gt; were concerned about the cost of the high level of abstraction. If it was easier for a human to read, it must be harder for the computer to read–and therefore, &lt;em&gt;slower&lt;&#x2F;em&gt; for the computer to read. Naïve translation from high-level instructions to machine code would never be good enough to assuage the critics, so Backus’s team created one of the first optimizing compilers.&lt;&#x2F;p&gt;
-&lt;p&gt;It was an engineering triumph. They invented entirely new branches of computer science that became the foundation for modern compiler theory… and built a compiler that produced machine code that was almost as fast as what the best experts could write by hand.&lt;&#x2F;p&gt;
-&lt;p&gt;The number of high-level programming languages exploded after the success of FORTRAN, introducing powerful new features. But concerns among systems programmers remained. Optimizing compilers could produce fast code, but systems programming requires more–it needs &lt;em&gt;determinism&lt;&#x2F;em&gt;. An instruction that unexpectedly takes extra CPU cycles to perform garbage collection or array bounds checking could crash an entire system. Unacceptable.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;c-the-light&quot;&gt;C the light&lt;&#x2F;h2&gt;
-&lt;p&gt;In 1972 Dennis Ritchie gave the world the C programming language, and systems programmers reacted with a mixture of initial disbelief, and eventual awe. C provided convenient high-level syntax and ZERO hidden run-time behaviors. And to show that it was indeed capable for systems programming, Ritchie and Ken Thompson ported UNIX from PDP-11 assembly to C.&lt;&#x2F;p&gt;
-&lt;p&gt;It was not without friction, and the result was not perfect. The C language had to be expanded with new features, and the C version of UNIX was larger in-memory and slower than the assembly version. But it showed that high-level languages could absolutely compete with assembly, even in systems programming.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;categorization&quot;&gt;Categorization&lt;&#x2F;h2&gt;
-&lt;p&gt;OK, enough history. Let’s stick C programmers in Abstraction Level 1. They still need to know the hardware pretty well, but at a more theoretical level rather than practical level. AL1 can also include experts in fields like computer graphics (shader programming), machine learning (massively parallel computation), etc.&lt;&#x2F;p&gt;
-&lt;p&gt;High-level language programmers (FORTRAN, COBOL… Java, C#, Javascript, etc) are at Abstraction Level 2. They (usually) don’t need to know what specific hardware their code is running on, much less how that hardware works.&lt;&#x2F;p&gt;
-&lt;p&gt;Abstraction Level 2 is the world I’ve lived in for ~20 years. It is comfortable, and I have been very productive here. Occasionally I’ve dabbled in AL1-type work, and sometimes wish I had more &lt;a class=&quot;wotd&quot; href=&quot;#kaboom&quot;&gt;opportunity&lt;&#x2F;a&gt;
- to grow my knowledge there, but I accept that I will never be an expert in low-level systems work.&lt;&#x2F;p&gt;
-&lt;p&gt;Agentic coding gives us a new level, Abstraction Level 3. In the near future, agentic programmers will no longer need to care about programming language tech stack that underlies what they are building: the AI abstracts that away. If you’ve read the history above, the arguments against AI in software engineering are pretty similar to those of systems programmers when FORTRAN was introduced.&lt;&#x2F;p&gt;
-&lt;p&gt;Yes, there are genuine concerns, some of which I will describe in follow-up posts. But at its most basic: Agentic programmers are to high-level programmers what high-level programmers are to low-level programmers–a new level of abstraction that over time will EXPAND the industry.&lt;&#x2F;p&gt;
-&lt;p&gt;Just as there are still hardware specialists writing assembly code, and Linux kernel developers or embedded systems engineers writing C, we will continue to have experts who know and work with high-level languages and frameworks day-to-day. They may become a smaller percentage of the industry–many will switch to AL3 agentic coding–but we will still need AL2 experts.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;tldr&quot;&gt;TLDR&lt;&#x2F;h2&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Abstraction level&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Date introduced&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Paradigm&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;AL0:&lt;&#x2F;strong&gt; Machine Code &amp;amp; Assembly&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;1940s&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Direct Hardware Manipulation&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Operating as close to the hardware as possible without a soldering iron.&lt;br&gt;&lt;br&gt;Requires deep understanding of the physical hardware, translating logic into literal bits or short mnemonics.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;AL1:&lt;&#x2F;strong&gt; Systems Languages (C, Rust, etc.)&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;1970s&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Deterministic &#x2F; Portable Assembly&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Provides convenient high-level syntax with zero hidden run-time behaviors.&lt;br&gt;&lt;br&gt;Requires theoretical hardware knowledge. Used for OS kernels, computer graphics (shaders), embedded systems, etc.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;AL2:&lt;&#x2F;strong&gt; High-Level Languages (FORTRAN, Java, JS)&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;1950s&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Application Programming&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Completely abstracts away the specific hardware the code runs on.&lt;br&gt;&lt;br&gt;Allows experts to focus day-to-day on business logic, frameworks, and architecture.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;AL3:&lt;&#x2F;strong&gt; Agentic AI Coding &lt;span class=&quot;new-tag&quot;&gt;new!&lt;&#x2F;span&gt;
-&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;2020s&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Intent-Driven &#x2F; Generative&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Abstracts away the underlying programming language and tech stack.&lt;br&gt;&lt;br&gt;The human acts as the director, providing intent and logic while the AI handles the syntax and implementation.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 </content>
         
     </entry>
