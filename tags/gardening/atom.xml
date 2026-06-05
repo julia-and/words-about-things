@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>words about things - gardening</title>
+    <subtitle>musings on the software industry, life in norway, and more</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://julia-and.github.io/words-about-things/tags/gardening/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-06-05T00:00:00+00:00</updated>
+    <id>https://julia-and.github.io/words-about-things/tags/gardening/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Digging in the Dirt</title>
+        <published>2026-06-05T00:00:00+00:00</published>
+        <updated>2026-06-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things/posts/digging-in-the-dirt/"/>
+        <id>https://julia-and.github.io/words-about-things/posts/digging-in-the-dirt/</id>
+        
+        <content type="html" xml:base="https://julia-and.github.io/words-about-things/posts/digging-in-the-dirt/">&lt;svg
+  class=&quot;print-only-fit&quot;
+  xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot;
+  viewBox=&quot;0 0 1610 120&quot;
+  preserveAspectRatio=&quot;xMidYMid meet&quot;
+  role=&quot;presentation&quot;
+&gt;
+  &lt;text
+    x=&quot;805&quot;
+    y=&quot;92&quot;
+    font-size=&quot;80&quot;
+    text-anchor=&quot;middle&quot;
+    fill=&quot;currentColor&quot;
+  &gt;
+    🖨️🖨️🖨️ &amp;nbsp;PLEASE MAKE THEM STOP 🍓&amp;nbsp; 🖨️🖨️🖨️
+  &lt;&#x2F;text&gt;&lt;&#x2F;svg
+&gt;
+&lt;p&gt;I come from two long lines of dedicated and skillful gardeners. For years I helped my parents and grandparents to prepare the ground and sow their vegetable gardens each spring. Some time later, we enjoyed succulent tomatoes and giant zucchini and the finest sweet corn I had ever tasted. So it was quite frustrating when my own early attempts at gardening yielded subpar (a.k.a., inedible) results. Rotten tomatoes. Zucchini plants without any zucchini. And what the HELL is wrong with my corn?!&lt;&#x2F;p&gt;
+&lt;figure class=&quot;cap-img&quot; style=&quot;max-width: 420px&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cap-img-digging-in-the-dirt-1&quot; class=&quot;cap-img-input&quot;&gt;&lt;label for=&quot;cap-img-digging-in-the-dirt-1&quot; class=&quot;cap-img-label&quot; title=&quot;click for caption&quot;&gt;&lt;img class=&quot;cap-img-media&quot; src=&quot;https:&#x2F;&#x2F;julia-and.github.io&#x2F;words-about-things&#x2F;img&#x2F;corn-smut.jpg&quot; alt=&quot;corn smut&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;span class=&quot;cap-img-hint&quot; aria-hidden=&quot;true&quot;&gt;?&lt;&#x2F;span&gt;&lt;&#x2F;label&gt;&lt;figcaption class=&quot;cap-img-caption&quot;&gt;&lt;label for=&quot;cap-img-digging-in-the-dirt-1&quot; class=&quot;cap-img-close&quot; title=&quot;hide caption&quot; aria-label=&quot;hide caption&quot;&gt;&amp;times;&lt;&#x2F;label&gt;&lt;span class=&quot;cap-img-caption-text&quot;&gt;It turns out this particular mold is called &#x27;&lt;a href=&#x27;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Corn_smut&#x27;&gt;corn smut&lt;&#x2F;a&gt;&#x27; or &#x27;Mexican truffle&#x27;, and it is actually a delicacy. But damn does it look weird.&lt;br&gt;&lt;br&gt;Image by &lt;a href=&#x27;https:&#x2F;&#x2F;commons.wikimedia.org&#x2F;wiki&#x2F;User:Jamain&#x27;&gt;Jamain&lt;&#x2F;a&gt;. &lt;a href=&#x27;https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;3.0&#x2F;&#x27;&gt;CC-BY-SA 3.0&lt;&#x2F;a&gt;&lt;&#x2F;span&gt;&lt;&#x2F;figcaption&gt;&lt;&#x2F;figure&gt;
+&lt;p&gt;What young me had to learn was that you don’t just drop seeds in the ground, then more-or-less walk away for a few months. Weeding and watering is not always enough. Gardening, like so many things in life, is an activity that requires ongoing problem solving. Each problem you solve brings you closer to that sweet, sweet, (mold-less) sweet &lt;span class=&quot;reveal-toggle&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;reveal-toggle-digging-in-the-dirt-1&quot; class=&quot;reveal-toggle-input&quot;&gt;&lt;label for=&quot;reveal-toggle-digging-in-the-dirt-1&quot; class=&quot;reveal-toggle-label&quot;&gt;&lt;span class=&quot;reveal-toggle-under&quot; aria-hidden=&quot;true&quot;&gt;🌽🌽&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-over&quot;&gt;corn&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-burst&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 0deg; animation-delay: 0ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 45deg; animation-delay: 18ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 90deg; animation-delay: 36ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 135deg; animation-delay: 54ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 180deg; animation-delay: 72ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 225deg; animation-delay: 90ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 270deg; animation-delay: 108ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 315deg; animation-delay: 126ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;label&gt;&lt;&#x2F;span&gt;
+… and you have so many opportunities to learn along the way.&lt;&#x2F;p&gt;
+&lt;p&gt;Some years later, I was able to set up a much larger garden. I excitedly ordered 150 strawberry plants, hoping for a reasonable first year harvest. It went pretty well, although the first-year harvest was smaller than we had hoped, just 10 pounds (4,5 kg) for the whole season.&lt;&#x2F;p&gt;
+&lt;p&gt;The next year, I learned that strawberry plants spread rather aggressively–starting mid-June we were averaging 10 pounds &lt;em&gt;per day&lt;&#x2F;em&gt;. We learned that birds really like strawberries–we engineered a netting system to keep birds out. We ate strawberries with breakfast, lunch, and dinner. By early July we had collected over 200 lbs. (~90 kg) Strawberries were coming out of our ears. The plants spread, we fought back. We cried &lt;a class=&quot;wotd&quot; href=&quot;#berrytime&quot;&gt;strawberry&lt;&#x2F;a&gt;
+ tears.&lt;&#x2F;p&gt;
+&lt;p&gt;Maybe a smarter person would have researched more and planned better before planting… But it was the experiences I had in that garden, in that second year, that permanently etched information about strawberry cultivation into my brain.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;get-your-hands-dirty&quot;&gt;Get your hands dirty&lt;&#x2F;h2&gt;
+&lt;p&gt;Every winter my mom holds a small family event wherein my parents, siblings, spouse and I transplant some houseplants, or plant some herbs–trivial indoor gardening tasks that generally wouldn’t require more than one person to accomplish. If you ask her why she goes to this effort, she’ll tell you, “So we can get some dirt under our fingernails.” I think it’s her way of reminding us that everyone needs to get their hands dirty now and then… so we don’t forget that even something as trivial and inconsequential as caring for a houseplant takes conscious effort, and can teach us something new.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
