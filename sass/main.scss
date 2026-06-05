@@ -648,6 +648,116 @@ pre code {
   }
 }
 
+/* === CAPTIONED IMAGE — click to reveal caption, no JS === */
+.cap-img {
+  position: relative;
+  display: inline-block;
+  margin: 1.5rem 0;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.cap-img-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+.cap-img-label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  line-height: 0;
+}
+.cap-img-media {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.cap-img-hint {
+  position: absolute;
+  right: 0.6rem;
+  bottom: 0.6rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--ff-mono);
+  font-size: 1rem;
+  line-height: 1;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 50%;
+  backdrop-filter: blur(2px);
+  transition:
+    opacity 240ms ease,
+    transform 240ms ease;
+}
+.cap-img-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  max-height: 100%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0.7rem 0.9rem;
+  font-family: var(--ff-mono);
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.62));
+  transform: translateY(101%);
+  transition: transform 320ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+.cap-img-close {
+  float: right;
+  margin: -0.2rem -0.2rem 0.2rem 0.5rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 160ms ease;
+}
+.cap-img-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.cap-img-caption a {
+  color: var(--gold);
+  text-decoration: underline;
+}
+.cap-img-caption a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.18);
+  text-decoration-color: #fff;
+}
+.cap-img-input:checked ~ .cap-img-label .cap-img-hint {
+  opacity: 0;
+  transform: scale(0.6);
+}
+.cap-img-input:checked ~ .cap-img-caption {
+  transform: translateY(0);
+}
+.cap-img-input:focus-visible ~ .cap-img-label {
+  outline: 2px solid var(--love);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cap-img-caption,
+  .cap-img-hint {
+    transition-duration: 0ms;
+  }
+}
+
 /* === PRINT ONLY === */
 .print-only,
 .print-only-fit {

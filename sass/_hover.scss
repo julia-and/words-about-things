@@ -190,8 +190,46 @@
   }
 }
 
+/*  (5b)  wotd variant — click → a rain of strawberries  */
+.berry-banner {
+  color: #ef4d3c;
+  text-transform: lowercase;
+  text-shadow:
+    0.04em 0.04em 0 #8cc63e,
+    0.08em 0.08em 0 #64892f;
+}
+.strawberry {
+  position: absolute;
+  top: -12vh;
+  width: 2.2rem;
+  height: 2.2rem;
+  opacity: 0;
+  transform: translate3d(0, 0, 0) scale(var(--scale)) rotate(0deg);
+  animation: strawberry-fall 3s cubic-bezier(0.3, 0.5, 0.5, 1) forwards;
+  will-change: transform, opacity;
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.18));
+}
+@keyframes strawberry-fall {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) scale(var(--scale)) rotate(0deg);
+  }
+  6% {
+    opacity: 1;
+  }
+  88% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--drift), 118vh, 0) scale(var(--scale))
+      rotate(var(--rot));
+  }
+}
+
 /*  (6)  the word itself does a turnstile spin while celebration is on  */
-:root:has(#kaboom:target) .wotd {
+:root:has(#kaboom:target) .wotd,
+:root:has(#berrytime:target) .wotd {
   display: inline-block;
   animation: wotd-turnstile 1.3s linear 3 both;
 }
@@ -479,7 +517,8 @@
   .confetti-overlay:target {
     display: none;
   }
-  :root:has(#kaboom:target) .wotd {
+  :root:has(#kaboom:target) .wotd,
+  :root:has(#berrytime:target) .wotd {
     animation: none;
   }
 }
