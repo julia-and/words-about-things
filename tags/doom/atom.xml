@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>words about things - doom</title>
+    <subtitle>musings on the software industry, life in norway, and more</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://julia-and.github.io/words-about-things/tags/doom/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-06-25T00:00:00+00:00</updated>
+    <id>https://julia-and.github.io/words-about-things/tags/doom/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A tradegy</title>
+        <published>2026-06-25T00:00:00+00:00</published>
+        <updated>2026-06-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things/posts/a-tragedy/"/>
+        <id>https://julia-and.github.io/words-about-things/posts/a-tragedy/</id>
+        
+        <content type="html" xml:base="https://julia-and.github.io/words-about-things/posts/a-tragedy/">&lt;p&gt;Let’s look at three (plus one) theoretical people working at a large software company as a representative slice.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;a-tale-from-software-engineering-circa-2026&quot;&gt;A tale from software engineering circa 2026&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;alice&quot;&gt;Alice&lt;&#x2F;h3&gt;
+&lt;p&gt;Alice has been interested in computers and technology since her father brought home an ancient (at the time) &lt;span class=&quot;reveal-toggle&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;reveal-toggle-a-tragedy-1&quot; class=&quot;reveal-toggle-input&quot;&gt;&lt;label for=&quot;reveal-toggle-a-tragedy-1&quot; class=&quot;reveal-toggle-label&quot;&gt;&lt;span class=&quot;reveal-toggle-under&quot; aria-hidden=&quot;true&quot;&gt;🍎&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-over&quot;&gt;Apple&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-burst&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 0deg; animation-delay: 0ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 45deg; animation-delay: 18ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 90deg; animation-delay: 36ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 135deg; animation-delay: 54ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 180deg; animation-delay: 72ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 225deg; animation-delay: 90ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 270deg; animation-delay: 108ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;span class=&quot;reveal-toggle-petal&quot; style=&quot;--angle: 315deg; animation-delay: 126ms&quot;&gt;🌸&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;label&gt;&lt;&#x2F;span&gt;
+ II when she was 5. In high school she discovered HTML and “real” programming with Perl. She printed (on paper) the &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.php.net&#x2F;manual&#x2F;en&#x2F;manual.php&quot;&gt;PHP Manual&lt;&#x2F;a&gt;, and used it to create at first simple dynamic web pages, and later full content management systems, multi-user dungeons, and other web apps. In University she developed a love for robust yet simple solutions with clean syntax. Maybe not always &lt;em&gt;brilliantly elegant&lt;&#x2F;em&gt; code, but consistent, effective, easy to read, and easy to maintain. Alice is an engineer who &lt;em&gt;cares&lt;&#x2F;em&gt; about understanding how and why things work, and ensuring that the code mirrors that understanding is important. She has spent her 20-year career mastering the &lt;em&gt;art&lt;&#x2F;em&gt; of software engineering. She is a good problem solver, but loves &lt;em&gt;building&lt;&#x2F;em&gt; the solution.&lt;&#x2F;p&gt;
+&lt;p&gt;Alice views AI with extreme suspicion… maybe even distaste. LLMs do not think or understand, they predict tokens based on training data… training data that includes billions of lines of source code that is probably not very good. Coming to rely on an AI to spit out completed code will blunt your coding skills. Worst of all, reviewing already written code is the &lt;em&gt;least&lt;&#x2F;em&gt; fun part of building software.&lt;&#x2F;p&gt;
+&lt;p&gt;She continues writing code by hand. It is arguably better quality than what AI can produce, but it takes far longer. Alice’s colleagues ship 3 features in the time it takes Alice to ship one. Her managers take notice.&lt;&#x2F;p&gt;
+&lt;p&gt;Let’s say she writes 90% of her code by hand.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bob&quot;&gt;Bob&lt;&#x2F;h3&gt;
+&lt;p&gt;Bob has always been interested and talented in math and science. He chose to learn computer science in University because software engineers get good jobs with good salaries. He is a great problem solver, and eager to use the latest technology to solve problems more efficiently. He becomes good at programming because that is the best way to get problems solved using a computer. Code is a means to an end, not an art.&lt;&#x2F;p&gt;
+&lt;p&gt;For Bob, AI is an incredible innovation, and he is &lt;em&gt;all in&lt;&#x2F;em&gt;. Suddenly he can solve problems twice as fast, without getting bogged down by syntax. He can keep the high-level concepts and solutions in his head and let the AI worry about the fine implementation details. It frees up more of &lt;em&gt;his&lt;&#x2F;em&gt; context to solve more problems. He can run multiple agents in parallel on multiple projects. His output doubles. His managers take notice.&lt;&#x2F;p&gt;
+&lt;p&gt;He writes only 20 - 30% of his code by hand.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;charlie&quot;&gt;Charlie&lt;&#x2F;h3&gt;
+&lt;p&gt;Charlie is another highly competent engineer. He cares that his work output is professional and clean, but at the end of the day, it’s just a job. His real interests are outside the office.&lt;&#x2F;p&gt;
+&lt;p&gt;He is initially unsure about AI, and only uses it now and then until early-2026, when hype and peer pressure finally win out and he tries Claude Code… and it’s great! The AI’s output is usually good enough for his tasks that it needs minimal manual intervention. It’s so satisfying to build new things so quickly. It’s not exactly the same feeling as building by hand, but it’s a reasonable substitute. He gets more of his work done, faster. His managers take notice.&lt;&#x2F;p&gt;
+&lt;p&gt;He writes less than 10% of his code by hand.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;erin&quot;&gt;Erin&lt;&#x2F;h3&gt;
+&lt;p&gt;Erin is the CEO of the company where Alice, Bob, and Charlie work.&lt;&#x2F;p&gt;
+&lt;p&gt;Last quarter’s internal statistics land on her desk, and the picture is clear: Developers who use AI ship more features, and more fixes. (Not mentioned in the report: whether there are more fixes &lt;em&gt;because&lt;&#x2F;em&gt; AI helped ship more features). Combine this with the rush of new AI-powered competitors coming on the scene, and there is only one conclusion… &lt;strong&gt;embrace AI or get left behind.&lt;&#x2F;strong&gt; The order is given.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;a-race-to-the-bottom&quot;&gt;A race to the bottom&lt;&#x2F;h3&gt;
+&lt;p&gt;The engineering team starts using AI more and more, AND non-engineering folks start creating new features, bug-“fixes”, and tooling that needs review. AI code is passable–sometimes even good–but without the careful attention paid when writing nearly all code by hand, technical debt grows rapidly.&lt;&#x2F;p&gt;
+&lt;p&gt;The Charlies don’t fully care about how code &lt;em&gt;works,&lt;&#x2F;em&gt; not in the long term. So review falls mostly to the Bobs and the Alices.&lt;&#x2F;p&gt;
+&lt;p&gt;And neither the Charlies nor the Bobs fully care about how the code &lt;em&gt;looks&lt;&#x2F;em&gt; in the long term. That falls mostly on the Alices.&lt;&#x2F;p&gt;
+&lt;p&gt;Unfortunately, the Alices spent decades building their understanding of architecture, systems, math, abstractions, frameworks, data structures, syntax, testing, etc, but now they have been reduced to babysitters checking the outputs of a Large Language Model. They would still like to attain a deep understanding of their systems, but the volume of changes is too high to keep up. They come to feel all their experience is useless when anyone can slap together a PR and call it “good enough because it works for me.” They start burning out. Some will crash out of the industry entirely. Others will move to a niche that is likely to require slow, cautious programming for a while longer.&lt;&#x2F;p&gt;
+&lt;p&gt;Now the full &lt;a class=&quot;wotd&quot; href=&quot;#kaboom&quot;&gt;burden&lt;&#x2F;a&gt;
+ of understanding falls on the remaining Bobs. Maybe the AI tools will improve enough to help them manage, or maybe they will also be overwhelmed and succumb like the Alices.&lt;&#x2F;p&gt;
+&lt;p&gt;Software engineering without Alices is bad. Software engineering with neither Alices nor Bobs is a tragedy.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-end-of-innovation&quot;&gt;The end of innovation&lt;&#x2F;h2&gt;
+&lt;p&gt;Obviously you can’t divide all software engineers into just three categories. It’s more of a &lt;style&gt;.gs-a-tragedy-1-0::selection{background-color:rgb(255,204,0)}.gs-a-tragedy-1-0::-moz-selection{background-color:rgb(255,204,0)}.gs-a-tragedy-1-1::selection{background-color:rgb(255,175,7)}.gs-a-tragedy-1-1::-moz-selection{background-color:rgb(255,175,7)}.gs-a-tragedy-1-2::selection{background-color:rgb(255,146,15)}.gs-a-tragedy-1-2::-moz-selection{background-color:rgb(255,146,15)}.gs-a-tragedy-1-3::selection{background-color:rgb(255,117,22)}.gs-a-tragedy-1-3::-moz-selection{background-color:rgb(255,117,22)}.gs-a-tragedy-1-4::selection{background-color:rgb(255,87,29)}.gs-a-tragedy-1-4::-moz-selection{background-color:rgb(255,87,29)}.gs-a-tragedy-1-5::selection{background-color:rgb(255,58,36)}.gs-a-tragedy-1-5::-moz-selection{background-color:rgb(255,58,36)}.gs-a-tragedy-1-6::selection{background-color:rgb(255,29,44)}.gs-a-tragedy-1-6::-moz-selection{background-color:rgb(255,29,44)}.gs-a-tragedy-1-7::selection{background-color:rgb(255,0,51)}.gs-a-tragedy-1-7::-moz-selection{background-color:rgb(255,0,51)}&lt;&#x2F;style&gt;&lt;span class=&quot;gradient-select&quot;&gt;&lt;span class=&quot;gs-a-tragedy-1-0&quot;&gt;g&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-1&quot;&gt;r&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-2&quot;&gt;a&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-3&quot;&gt;d&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-4&quot;&gt;i&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-5&quot;&gt;e&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-6&quot;&gt;n&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-7&quot;&gt;t&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;. The above is a simplified example, but I think the point is valid. There &lt;em&gt;are&lt;&#x2F;em&gt; engineers who care &lt;em&gt;much more&lt;&#x2F;em&gt; about the &lt;em&gt;how&lt;&#x2F;em&gt; of software than others, and they are getting burned by agentic development just as badly as junior developers.&lt;&#x2F;p&gt;
+&lt;p&gt;If we don’t adjust course, we are headed for a generation of lost innovation. If engineering devolves into prompting and re-prompting, your product is reproducible by anyone who finds the right combination of prose to feed into the machine. Innovation comes from people who &lt;em&gt;understand.&lt;&#x2F;em&gt; And understanding software can only come from experience.&lt;&#x2F;p&gt;
+&lt;p&gt;Regardless of how good AI actually is at software engineering, the continued push for more adoption is an explicit statement–by any involved–saying:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Thanks for your 25 years of caring, it made for some great training data. But we have LLMs now, so we don’t need your experience anymore.”&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+        
+    </entry>
+</feed>
