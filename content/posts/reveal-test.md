@@ -44,6 +44,12 @@ Long-caption stress test (should cap at image height and scroll, not clip):
 
 {{ image_caption(src="img/this-is-fine.png", alt="a dog in a burning room", caption="This is fine. Everything is fine. The flames are merely ambient lighting. The smoke is just atmosphere. The crackling is a cozy fireplace sound. I have made peace with the situation and will continue sipping my coffee as the structural integrity of this room degrades around me, because acknowledging the problem would require getting up, and I am, fundamentally, fine. Truly. Completely. Fine.", width="420px") }}
 
+## Gradient select
+
+Select the text to see each character's highlight step along a gradient. {{ gradient_select(text="drag across me", startColor="#ff0066", endColor="#3366ff") }}
+
+In context: a {{ gradient_select(text="sunset", startColor="#ffcc00", endColor="#ff0033") }} fading into {{ gradient_select(text="dusk", startColor="#6633ff", endColor="#0a0a2a") }}.
+
 ## Sanity check
 
 The quick brown fox jumps over the lazy dog. Plain text — should behave normally.

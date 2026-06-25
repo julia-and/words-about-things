@@ -1,0 +1,43 @@
+{#-
+  gradient_select(text, startColor, endColor)
+
+  Renders `text` so that the ::selection (highlight) colour of each character
+  steps along a gradient from startColor to endColor, inclusive. The number of
+  gradient steps equals the number of characters in `text`.
+
+  Colours are hex, either #rgb or #rrggbb (the leading # is optional).
+  Each call is scoped to the page + shortcode index, so it is safe to use the
+  shortcode many times on one page.
+-#}
+{%- set sc = startColor | replace(from="#", to="") | lower -%}
+{%- set ec = endColor | replace(from="#", to="") | lower -%}
+{%- set slug = page.slug | default(value="x") -%}
+{%- set uid = "gs-" ~ slug ~ "-" ~ nth -%}
+{#- hex digit -> value lookup table (split('') leaves empty boundary entries, drop them) -#}
+{%- set_global HEX = [] -%}
+{%- set hexsrc = "0123456789abcdef" | split(pat="") -%}
+{%- for c in hexsrc -%}{%- if c != "" -%}{%- set_global HEX = HEX | concat(with=c) -%}{%- endif -%}{%- endfor -%}
+{#- parse start + end colours into R/G/B lists (index 0 = start, index 1 = end) -#}
+{%- set_global R = [] -%}{%- set_global G = [] -%}{%- set_global B = [] -%}
+{%- for col in [sc, ec] -%}
+  {%- set_global CA = [] -%}
+  {%- set colsrc = col | split(pat="") -%}
+  {%- for c in colsrc -%}{%- if c != "" -%}{%- set_global CA = CA | concat(with=c) -%}{%- endif -%}{%- endfor -%}
+  {%- set short = CA | length == 3 -%}
+  {%- set_global COMP = [] -%}
+  {%- for j in range(end=3) -%}
+    {%- set jhi = j * 2 -%}{%- set jlo = j * 2 + 1 -%}
+    {%- if short -%}{%- set hi = CA[j] -%}{%- set lo = CA[j] -%}{%- else -%}{%- set hi = CA[jhi] -%}{%- set lo = CA[jlo] -%}{%- endif -%}
+    {%- set_global hv = 0 -%}{%- set_global lv = 0 -%}
+    {%- for k in range(end=16) -%}{%- if HEX[k] == hi -%}{%- set_global hv = k -%}{%- endif -%}{%- if HEX[k] == lo -%}{%- set_global lv = k -%}{%- endif -%}{%- endfor -%}
+    {%- set_global COMP = COMP | concat(with=hv * 16 + lv) -%}
+  {%- endfor -%}
+  {%- set_global R = R | concat(with=COMP[0]) -%}{%- set_global G = G | concat(with=COMP[1]) -%}{%- set_global B = B | concat(with=COMP[2]) -%}
+{%- endfor -%}
+{#- split text into characters -#}
+{%- set_global T = [] -%}
+{%- set textsrc = text | split(pat="") -%}
+{%- for c in textsrc -%}{%- if c != "" -%}{%- set_global T = T | concat(with=c) -%}{%- endif -%}{%- endfor -%}
+{%- set n = T | length -%}
+{%- set_global denom = 1 -%}{%- if n > 1 -%}{%- set_global denom = n - 1 -%}{%- endif -%}
+<style>{% for ch in T %}{% set i = loop.index0 %}{% set t = i / denom %}{% set r = (R[0] + (R[1] - R[0]) * t) | round | int %}{% set g = (G[0] + (G[1] - G[0]) * t) | round | int %}{% set b = (B[0] + (B[1] - B[0]) * t) | round | int %}.{{ uid }}-{{ i }}::selection{background-color:rgb({{ r }},{{ g }},{{ b }})}.{{ uid }}-{{ i }}::-moz-selection{background-color:rgb({{ r }},{{ g }},{{ b }})}{% endfor %}</style><span class="gradient-select">{%- for ch in T -%}<span class="{{ uid }}-{{ loop.index0 }}">{{ ch }}</span>{%- endfor -%}</span>

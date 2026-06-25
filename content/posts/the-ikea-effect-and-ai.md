@@ -1,7 +1,7 @@
 +++
 title = "The IKEA effect and AI"
 date = 2026-05-22
-description = "some musings on how AI is affecting the software industry"
+description = "building it yourself is better"
 
 [extra]
 subtitle = "AI thoughts, part 2"
