@@ -5,8 +5,155 @@
     <link rel="self" type="application/atom+xml" href="https://julia-and.github.io/words-about-things/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-06-25T00:00:00+00:00</updated>
+    <updated>2026-07-18T00:00:00+00:00</updated>
     <id>https://julia-and.github.io/words-about-things/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Gooses! Geeses!</title>
+        <published>2026-07-18T00:00:00+00:00</published>
+        <updated>2026-07-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things/posts/gooses-geeses/"/>
+        <id>https://julia-and.github.io/words-about-things/posts/gooses-geeses/</id>
+        
+        <content type="html" xml:base="https://julia-and.github.io/words-about-things/posts/gooses-geeses/">&lt;svg
+  class=&quot;print-only-fit&quot;
+  xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot;
+  viewBox=&quot;0 0 3404 120&quot;
+  preserveAspectRatio=&quot;xMidYMid meet&quot;
+  role=&quot;presentation&quot;
+&gt;
+  &lt;text
+    x=&quot;1702&quot;
+    y=&quot;92&quot;
+    font-size=&quot;80&quot;
+    text-anchor=&quot;middle&quot;
+    fill=&quot;currentColor&quot;
+  &gt;
+    🖨️🖨️🖨️ &amp;nbsp;You are a human. Not a machine. You belong with your own kind.&amp;nbsp; 🖨️🖨️🖨️
+  &lt;&#x2F;text&gt;&lt;&#x2F;svg
+&gt;
+&lt;h2 id=&quot;i-want-my-geese-to-lay-gold-eggs-for-easter&quot;&gt;I want my geese to lay gold eggs for Easter&lt;&#x2F;h2&gt;
+&lt;p&gt;AI agents are pretty incredible. Anyone with even a minimal grasp of written language can give an idea (and a fistful of tokens) to Claude and get back something vaguely resembling a functional implementation of that idea. A few hours of back-and-forth and you might have something approaching “usable.” It is a democratization of software engineering.&lt;&#x2F;p&gt;
+&lt;p&gt;The best part? It doesn’t matter if your idea is actually… good.&lt;&#x2F;p&gt;
+&lt;p&gt;A few years ago, one had to balance that potential value of something against the time it would take to build…. &lt;em&gt;before&lt;&#x2F;em&gt; building it. No one wants to spend their limited time to build an application that is completely worthless. Setting up a development environment and git repository for a new project, choosing libraries and frameworks, scaffolding the baseline… it’s all wasted effort if the idea doesn’t work out. This was real friction that helped to sift out the crummy ideas from the likely good ones, or at least force you to think about your idea before building anything.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, though, you can give any idea to your AI agents and—more or less—walk away while it builds your idea. Regardless of merit. Now the human has something concrete to make their decision: is this good? Is it worth continuing?&lt;&#x2F;p&gt;
+&lt;p&gt;Except…&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;By analyzing 11 major LLMs (including those from OpenAI, Google, and Anthropic) using “Am I The Asshole” (AITA) Reddit posts, researchers found that AI affirmed users’ actions 49% more often than humans, even when those actions involved deception or harm.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;neurosciencenews.com&#x2F;ai-sycophancy-moral-judgment-30397&#x2F;&quot;&gt;Neuroscience News&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The business model of an AI provider encourages optimization for user engagement–so that you continue using the tool. What better way than making you feel like an underappreciated genius with world-changing ideas?&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In our human experiments, even a single interaction with sycophantic AI reduced participants’ willingness to take responsibility… while increasing their own conviction that they were right.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;neurosciencenews.com&#x2F;ai-sycophancy-moral-judgment-30397&#x2F;&quot;&gt;Neuroscience News&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Admittedly, this paper examined interpersonal conflict scenarios, not software engineering. But, I have first-hand subjective experience that suggests these same effects apply when building software with LLMs. My AI tells me that’s a great insight, and just as valuable as the research paper ☺️&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;i-want-it-now&quot;&gt;I want it now!&lt;&#x2F;h2&gt;
+&lt;p&gt;You have probably heard of the Principle of Least Effort. It suggests that animals (including people) will naturally choose the path of least resistance. Historically, energy was scarce, so evolution optimized for preservation of energy. A more recent &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.sciencedirect.com&#x2F;science&#x2F;article&#x2F;pii&#x2F;S0149763426000424?via%3Dihub&quot;&gt;paper&lt;&#x2F;a&gt; makes a compelling case for a more nuanced interpretation–animals don’t avoid effort, but &lt;em&gt;wasted&lt;&#x2F;em&gt; effort. This is especially applicable to humans, some of whom have sufficient grey matter to consciously weigh whether something is worth the effort or not. The rest of us make-do with the continuous, unconscious cost-benefit analyses passing us hints.&lt;&#x2F;p&gt;
+&lt;p&gt;Either way, this is highly relevant to the rollout of LLMs in the workplace. In my experience, it is quite difficult to return to doing programming tasks the “old” way after having tried the new path of least resistance offered by LLM coding agents. Whether it is pure effort avoidance or a need to avoid wasted effort doesn’t matter. If you perceive that an AI makes your job easier, your brain wants you to use it.&lt;&#x2F;p&gt;
+&lt;p&gt;So maybe you use it. And it happily builds any brilliant idea you ask it to. And you find that it does this really helpful thing where it will give you a few multiple-choice questions to refine the design so instead of thinking of the potential problems of your idea yourself, it tells you what they are AND recommends the best fix. Just press Enter, Enter, Enter. Whoops, made a mistake? No worries, it can fix that for you! A few minutes later: boom, some passable code that does pretty close to what you asked for. No effort wasted.&lt;&#x2F;p&gt;
+&lt;p&gt;AI has managed to remove a large part of the productive &lt;a class=&quot;wotd&quot; href=&quot;#kaboom&quot;&gt;friction&lt;&#x2F;a&gt;
+ from software development.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;and-if-i-don-t-get-the-things-i-am-after-i-m-going-to-scream&quot;&gt;And if I don’t get the things I am after… I’m. Going. To. Scream!&lt;&#x2F;h2&gt;
+&lt;p&gt;It has been 5 months since I started using AI extensively. I have learned that either I am particularly susceptible to the sycophancy and reduction of productive &lt;a class=&quot;wotd&quot; href=&quot;#kaboom&quot;&gt;friction&lt;&#x2F;a&gt;
+, or there is something quite dangerous here. Most likely, a combination of both.&lt;&#x2F;p&gt;
+&lt;p&gt;Undoubtedly I have difficulty forming human connections, so the lack of judgement and constant (often misguided) positive reinforcement can make AI &lt;em&gt;feel&lt;&#x2F;em&gt; like a safe place for me. (More on this in a future post, perhaps.)&lt;&#x2F;p&gt;
+&lt;p&gt;At the same time, talking to an AI is doing three things that aren’t good for anyone who isn’t careful.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;AI reduces or removes productive &lt;a class=&quot;wotd&quot; href=&quot;#kaboom&quot;&gt;friction&lt;&#x2F;a&gt;
+.&lt;&#x2F;strong&gt; When your ideas aren’t meaningfully challenged, your critical thinking skills atrophy, and you lose the ability to tolerate different viewpoints.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;AI is a feedback loop of small dopamine hits.&lt;&#x2F;strong&gt; Same principle as short-form video content. You get many small payoffs for no effort, which keeps you wanting more, and further reduces your tolerance for &lt;a class=&quot;wotd&quot; href=&quot;#kaboom&quot;&gt;friction&lt;&#x2F;a&gt;
+.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;AI can absolutely affect your real-world social dynamics.&lt;&#x2F;strong&gt; &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.science.org&#x2F;doi&#x2F;10.1126&#x2F;science.aec8352&quot;&gt;Some&lt;&#x2F;a&gt; &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2502.10844&quot;&gt;studies&lt;&#x2F;a&gt; have found that AI use can damage social skills. It turns out fellow humans won’t coddle you like an AI does.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;In other words, AI validates your behavior no matter how reprehensible, buys you everything you ask for, and has zero awareness of why this is bad. We, the operators of the AI, will become like the spoiled child of an irresponsible and overindulgent parent.&lt;&#x2F;p&gt;
+&lt;p&gt;Yes, that’s right. AI is turning us all into Veruca Salt.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;cap-img&quot; style=&quot;max-width: 420px&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cap-img-gooses-geeses-1&quot; class=&quot;cap-img-input&quot;&gt;&lt;label for=&quot;cap-img-gooses-geeses-1&quot; class=&quot;cap-img-label&quot; title=&quot;click for caption&quot;&gt;&lt;img class=&quot;cap-img-media&quot; src=&quot;https:&#x2F;&#x2F;julia-and.github.io&#x2F;words-about-things&#x2F;img&#x2F;ms-salt-1971.webp&quot; alt=&quot;Veruca Salt&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;span class=&quot;cap-img-hint&quot; aria-hidden=&quot;true&quot;&gt;?&lt;&#x2F;span&gt;&lt;&#x2F;label&gt;&lt;figcaption class=&quot;cap-img-caption&quot;&gt;&lt;label for=&quot;cap-img-gooses-geeses-1&quot; class=&quot;cap-img-close&quot; title=&quot;hide caption&quot; aria-label=&quot;hide caption&quot;&gt;&amp;times;&lt;&#x2F;label&gt;&lt;span class=&quot;cap-img-caption-text&quot;&gt;Image from &lt;a href=&#x27;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Willy_Wonka_%26_the_Chocolate_Factory&#x27;&gt;Willy Wonka &amp;amp; the Chocolate Factory (1971)&lt;&#x2F;a&gt;. Used without permission.&lt;&#x2F;span&gt;&lt;&#x2F;figcaption&gt;&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;the-incinerator-is-only-lit-on-tuesdays&quot;&gt;The incinerator is only lit on Tuesdays&lt;&#x2F;h2&gt;
+&lt;p&gt;Thankfully, a little self-awareness and some moderation goes a long way. Try this:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Ask yourself:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In an average workday, how many questions or tasks do you prompt Claude with?&lt;&#x2F;p&gt;
+&lt;p&gt;Before AI, how many of those questions would you have asked another human? How many of those tasks would you have dug into yourself?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Are you more engaged with AI than with humans?&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Do you feel more prone to frustration when you are forced to take on a difficult or tedious task yourself?&lt;&#x2F;p&gt;
+&lt;p&gt;Does “you’re exactly right” actually give you a sense of validation?&lt;&#x2F;p&gt;
+&lt;p&gt;Is your first instinct to reach for the AI tools when presented with a task you don’t understand?&lt;&#x2F;p&gt;
+&lt;p&gt;Does discussing technical topics with human colleagues feel increasingly abrasive?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Take an occasional break from Claude.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This will be hard, especially for those of us hopelessly down the AI rabbit hole. Start with one or two easy wins per day—&lt;style&gt;.gs-gooses-geeses-1-0::selection{background-color:rgb(0,225,255)}.gs-gooses-geeses-1-0::-moz-selection{background-color:rgb(0,225,255)}.gs-gooses-geeses-1-1::selection{background-color:rgb(6,218,253)}.gs-gooses-geeses-1-1::-moz-selection{background-color:rgb(6,218,253)}.gs-gooses-geeses-1-2::selection{background-color:rgb(11,211,251)}.gs-gooses-geeses-1-2::-moz-selection{background-color:rgb(11,211,251)}.gs-gooses-geeses-1-3::selection{background-color:rgb(17,204,248)}.gs-gooses-geeses-1-3::-moz-selection{background-color:rgb(17,204,248)}.gs-gooses-geeses-1-4::selection{background-color:rgb(22,196,246)}.gs-gooses-geeses-1-4::-moz-selection{background-color:rgb(22,196,246)}.gs-gooses-geeses-1-5::selection{background-color:rgb(28,189,244)}.gs-gooses-geeses-1-5::-moz-selection{background-color:rgb(28,189,244)}.gs-gooses-geeses-1-6::selection{background-color:rgb(33,182,242)}.gs-gooses-geeses-1-6::-moz-selection{background-color:rgb(33,182,242)}.gs-gooses-geeses-1-7::selection{background-color:rgb(39,175,240)}.gs-gooses-geeses-1-7::-moz-selection{background-color:rgb(39,175,240)}.gs-gooses-geeses-1-8::selection{background-color:rgb(44,168,237)}.gs-gooses-geeses-1-8::-moz-selection{background-color:rgb(44,168,237)}.gs-gooses-geeses-1-9::selection{background-color:rgb(50,161,235)}.gs-gooses-geeses-1-9::-moz-selection{background-color:rgb(50,161,235)}.gs-gooses-geeses-1-10::selection{background-color:rgb(55,154,233)}.gs-gooses-geeses-1-10::-moz-selection{background-color:rgb(55,154,233)}.gs-gooses-geeses-1-11::selection{background-color:rgb(60,147,231)}.gs-gooses-geeses-1-11::-moz-selection{background-color:rgb(60,147,231)}.gs-gooses-geeses-1-12::selection{background-color:rgb(66,139,229)}.gs-gooses-geeses-1-12::-moz-selection{background-color:rgb(66,139,229)}.gs-gooses-geeses-1-13::selection{background-color:rgb(72,132,226)}.gs-gooses-geeses-1-13::-moz-selection{background-color:rgb(72,132,226)}.gs-gooses-geeses-1-14::selection{background-color:rgb(77,125,224)}.gs-gooses-geeses-1-14::-moz-selection{background-color:rgb(77,125,224)}.gs-gooses-geeses-1-15::selection{background-color:rgb(83,118,222)}.gs-gooses-geeses-1-15::-moz-selection{background-color:rgb(83,118,222)}.gs-gooses-geeses-1-16::selection{background-color:rgb(88,111,220)}.gs-gooses-geeses-1-16::-moz-selection{background-color:rgb(88,111,220)}.gs-gooses-geeses-1-17::selection{background-color:rgb(94,104,218)}.gs-gooses-geeses-1-17::-moz-selection{background-color:rgb(94,104,218)}.gs-gooses-geeses-1-18::selection{background-color:rgb(99,97,215)}.gs-gooses-geeses-1-18::-moz-selection{background-color:rgb(99,97,215)}.gs-gooses-geeses-1-19::selection{background-color:rgb(105,89,213)}.gs-gooses-geeses-1-19::-moz-selection{background-color:rgb(105,89,213)}.gs-gooses-geeses-1-20::selection{background-color:rgb(110,82,211)}.gs-gooses-geeses-1-20::-moz-selection{background-color:rgb(110,82,211)}.gs-gooses-geeses-1-21::selection{background-color:rgb(115,75,209)}.gs-gooses-geeses-1-21::-moz-selection{background-color:rgb(115,75,209)}.gs-gooses-geeses-1-22::selection{background-color:rgb(121,68,207)}.gs-gooses-geeses-1-22::-moz-selection{background-color:rgb(121,68,207)}.gs-gooses-geeses-1-23::selection{background-color:rgb(127,61,204)}.gs-gooses-geeses-1-23::-moz-selection{background-color:rgb(127,61,204)}.gs-gooses-geeses-1-24::selection{background-color:rgb(132,54,202)}.gs-gooses-geeses-1-24::-moz-selection{background-color:rgb(132,54,202)}.gs-gooses-geeses-1-25::selection{background-color:rgb(138,47,200)}.gs-gooses-geeses-1-25::-moz-selection{background-color:rgb(138,47,200)}.gs-gooses-geeses-1-26::selection{background-color:rgb(143,40,198)}.gs-gooses-geeses-1-26::-moz-selection{background-color:rgb(143,40,198)}.gs-gooses-geeses-1-27::selection{background-color:rgb(149,32,196)}.gs-gooses-geeses-1-27::-moz-selection{background-color:rgb(149,32,196)}.gs-gooses-geeses-1-28::selection{background-color:rgb(154,25,193)}.gs-gooses-geeses-1-28::-moz-selection{background-color:rgb(154,25,193)}.gs-gooses-geeses-1-29::selection{background-color:rgb(160,18,191)}.gs-gooses-geeses-1-29::-moz-selection{background-color:rgb(160,18,191)}.gs-gooses-geeses-1-30::selection{background-color:rgb(165,11,189)}.gs-gooses-geeses-1-30::-moz-selection{background-color:rgb(165,11,189)}&lt;&#x2F;style&gt;&lt;span class=&quot;gradient-select&quot;&gt;&lt;span class=&quot;gs-gooses-geeses-1-0&quot;&gt;q&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-1&quot;&gt;u&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-2&quot;&gt;i&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-3&quot;&gt;c&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-4&quot;&gt;k&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-5&quot;&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-6&quot;&gt;C&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-7&quot;&gt;S&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-8&quot;&gt;S&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-9&quot;&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-10&quot;&gt;o&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-11&quot;&gt;r&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-12&quot;&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-13&quot;&gt;t&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-14&quot;&gt;e&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-15&quot;&gt;x&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-16&quot;&gt;t&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-17&quot;&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-18&quot;&gt;s&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-19&quot;&gt;t&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-20&quot;&gt;r&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-21&quot;&gt;i&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-22&quot;&gt;n&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-23&quot;&gt;g&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-24&quot;&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-25&quot;&gt;t&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-26&quot;&gt;w&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-27&quot;&gt;e&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-28&quot;&gt;a&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-29&quot;&gt;k&lt;&#x2F;span&gt;&lt;span class=&quot;gs-gooses-geeses-1-30&quot;&gt;s&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;, simple HTML work. Gradually add in an occasional task that takes more mental effort. You did this without an LLM before, and you can do it again.&lt;&#x2F;p&gt;
+&lt;p&gt;Ask a knowledgeable (human) colleague for feedback or design guidance. Most of the time, you are not “exactly right,” and it’s important to hear that. We learn as much through failure and criticism as through success, so don’t be in such a hurry to avoid real, unbiased feedback.&lt;&#x2F;p&gt;
+&lt;p&gt;Try and find a balance where you don’t feel immediately drawn to AI for every task or question.&lt;&#x2F;p&gt;
+&lt;p&gt;Humans just don’t thrive in an environment with zero &lt;a class=&quot;wotd&quot; href=&quot;#kaboom&quot;&gt;friction&lt;&#x2F;a&gt;
+. We need a headwind to fight against. Real effort shakes loose the best ideas.&lt;&#x2F;p&gt;
+&lt;p&gt;And as a side benefit: when you can think for yourself, &lt;em&gt;you&lt;&#x2F;em&gt; are in control.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Lawn ornament</title>
+        <published>2026-07-04T00:00:00+00:00</published>
+        <updated>2026-07-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://julia-and.github.io/words-about-things/posts/bonus-poem/"/>
+        <id>https://julia-and.github.io/words-about-things/posts/bonus-poem/</id>
+        
+        <content type="html" xml:base="https://julia-and.github.io/words-about-things/posts/bonus-poem/">&lt;blockquote&gt;
+&lt;p&gt;Who is the creepy guy behind the bush? &lt;br &#x2F;&gt;
+He’s been there all morning, &lt;br &#x2F;&gt;
+his bowler hat and wool jacket &lt;br &#x2F;&gt;
+colored identical shades of gray. &lt;br &#x2F;&gt;
+Is he watching someone? &lt;br &#x2F;&gt;
+Or waiting for something? &lt;br &#x2F;&gt;
+The row of evergreen bushes&lt;br &#x2F;&gt;
+makes it hard to tell, exactly. &lt;br &#x2F;&gt;
+Perhaps Lisa—our neighbor—is &lt;br &#x2F;&gt;
+undressing in her window again: &lt;br &#x2F;&gt;
+what voyeuristic creep &lt;br &#x2F;&gt;
+wouldn’t get a kick out of that? &lt;br &#x2F;&gt;
+His hand moves to his hat and &lt;br &#x2F;&gt;
+he ducks, almost imperceptibly, as the &lt;br &#x2F;&gt;
+mail truck passes by. &lt;br &#x2F;&gt;
+Could Lisa be having an affair with &lt;br &#x2F;&gt;
+this weirdo? Maybe he just wants &lt;br &#x2F;&gt;
+her to leave, so he can steal her &lt;br &#x2F;&gt;
+Van Gogh prints and made-in-Taiwan &lt;br &#x2F;&gt;
+Ming vases? I’ll bet he’s reviewing his plan: &lt;br &#x2F;&gt;
+Enter through window, &lt;br &#x2F;&gt;
+grab everything you can carry, &lt;br &#x2F;&gt;
+leave through door. &lt;br &#x2F;&gt;
+Again, he moves his arm, &lt;br &#x2F;&gt;
+the signal for “I’m going in.”&lt;br &#x2F;&gt;
+But the man can’t move. &lt;br &#x2F;&gt;
+He must be scared, even terrified, &lt;br &#x2F;&gt;
+not of being caught, &lt;br &#x2F;&gt;
+but of the sheer possibility &lt;br &#x2F;&gt;
+that things are not always &lt;br &#x2F;&gt;
+what they seem to be.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Julia Anderson, 2009&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>A tradegy</title>
         <published>2026-06-25T00:00:00+00:00</published>
@@ -53,7 +200,7 @@
 &lt;h2 id=&quot;the-end-of-innovation&quot;&gt;The end of innovation&lt;&#x2F;h2&gt;
 &lt;p&gt;Obviously you can’t divide all software engineers into just three categories. It’s more of a &lt;style&gt;.gs-a-tragedy-1-0::selection{background-color:rgb(255,204,0)}.gs-a-tragedy-1-0::-moz-selection{background-color:rgb(255,204,0)}.gs-a-tragedy-1-1::selection{background-color:rgb(255,175,7)}.gs-a-tragedy-1-1::-moz-selection{background-color:rgb(255,175,7)}.gs-a-tragedy-1-2::selection{background-color:rgb(255,146,15)}.gs-a-tragedy-1-2::-moz-selection{background-color:rgb(255,146,15)}.gs-a-tragedy-1-3::selection{background-color:rgb(255,117,22)}.gs-a-tragedy-1-3::-moz-selection{background-color:rgb(255,117,22)}.gs-a-tragedy-1-4::selection{background-color:rgb(255,87,29)}.gs-a-tragedy-1-4::-moz-selection{background-color:rgb(255,87,29)}.gs-a-tragedy-1-5::selection{background-color:rgb(255,58,36)}.gs-a-tragedy-1-5::-moz-selection{background-color:rgb(255,58,36)}.gs-a-tragedy-1-6::selection{background-color:rgb(255,29,44)}.gs-a-tragedy-1-6::-moz-selection{background-color:rgb(255,29,44)}.gs-a-tragedy-1-7::selection{background-color:rgb(255,0,51)}.gs-a-tragedy-1-7::-moz-selection{background-color:rgb(255,0,51)}&lt;&#x2F;style&gt;&lt;span class=&quot;gradient-select&quot;&gt;&lt;span class=&quot;gs-a-tragedy-1-0&quot;&gt;g&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-1&quot;&gt;r&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-2&quot;&gt;a&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-3&quot;&gt;d&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-4&quot;&gt;i&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-5&quot;&gt;e&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-6&quot;&gt;n&lt;&#x2F;span&gt;&lt;span class=&quot;gs-a-tragedy-1-7&quot;&gt;t&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;. The above is a simplified example, but I think the point is valid. There &lt;em&gt;are&lt;&#x2F;em&gt; engineers who care &lt;em&gt;much more&lt;&#x2F;em&gt; about the &lt;em&gt;how&lt;&#x2F;em&gt; of software than others, and they are getting burned by agentic development just as badly as junior developers.&lt;&#x2F;p&gt;
 &lt;p&gt;If we don’t adjust course, we are headed for a generation of lost innovation. If engineering devolves into prompting and re-prompting, your product is reproducible by anyone who finds the right combination of prose to feed into the machine. Innovation comes from people who &lt;em&gt;understand.&lt;&#x2F;em&gt; And understanding software can only come from experience.&lt;&#x2F;p&gt;
-&lt;p&gt;Regardless of how good AI actually is at software engineering, the continued push for more adoption is an explicit statement–by any involved–saying:&lt;&#x2F;p&gt;
+&lt;p&gt;Regardless of how good AI actually is at software engineering, the continued push for more adoption &lt;em&gt;feels&lt;&#x2F;em&gt; like an explicit statement–by any involved–saying:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Thanks for your 25 years of caring, it made for some great training data. But we have LLMs now, so we don’t need your experience anymore.”&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
