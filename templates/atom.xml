@@ -46,16 +46,16 @@
         <link rel="alternate" type="text/html" href="{{ page.permalink | safe }}"/>
         <id>{{ page.permalink | safe }}</id>
         {% if page.summary %}
-        {#- print_only shortcode wraps its output in <!--print-only--> sentinels;
-            odd-indexed split segments are the print-only markup — drop them #}
+        {#- shortcodes wrap feed-excluded markup in <!--nofeed--> sentinels;
+            odd-indexed split segments are the excluded markup — drop them #}
         {%- set_global stripped = "" -%}
-        {%- for part in page.summary | split(pat="<!--print-only-->") -%}
+        {%- for part in page.summary | split(pat="<!--nofeed-->") -%}
           {%- if loop.index0 % 2 == 0 -%}{%- set_global stripped = stripped ~ part -%}{%- endif -%}
         {%- endfor %}
         <summary type="html">{{ stripped }}</summary>
         {% else %}
         {%- set_global stripped = "" -%}
-        {%- for part in page.content | split(pat="<!--print-only-->") -%}
+        {%- for part in page.content | split(pat="<!--nofeed-->") -%}
           {%- if loop.index0 % 2 == 0 -%}{%- set_global stripped = stripped ~ part -%}{%- endif -%}
         {%- endfor %}
         <content type="html" xml:base="{{ page.permalink | escape_xml | safe }}">{{ stripped }}</content>
