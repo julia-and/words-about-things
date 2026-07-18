@@ -48,7 +48,9 @@
       title="{{ config.title }} — atom feed"
       href="{{ get_url(path='atom.xml') }}"
     />
-    <link rel="icon" href="data:," />
+    <link rel="icon" href="{{ get_url(path='img/favicon.svg') }}" type="image/svg+xml" />
+    <link rel="icon" href="{{ get_url(path='img/favicon.png') }}" type="image/png" />
+    <link rel="apple-touch-icon" href="{{ get_url(path='img/favicon.png') }}" />
   </head>
   <body>
     <header class="site-header">

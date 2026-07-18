@@ -19,6 +19,8 @@
     <generator uri="https://www.getzola.org/">Zola</generator>
     {% if last_updated is defined %}<updated>{{ last_updated | date(format="%+") }}</updated>{% endif %}
     <id>{{ feed_url | safe }}</id>
+    <icon>{{ config.base_url | safe }}/img/favicon.png</icon>
+    <logo>{{ config.base_url | safe }}/img/favicon.png</logo>
     {%- for page in pages %}
     <entry xml:lang="{{ page.lang }}">
         <title>{{ page.title }}</title>

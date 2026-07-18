@@ -1,5 +1,6 @@
 base_url = "https://julia-and.github.io/words-about-things"
 title = "words about things"
+author = "Julia C Anderson"
 description = "musings on the software industry, life in norway, and more"
 default_language = "en"
 compile_sass = true
