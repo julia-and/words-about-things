@@ -1,4 +1,4 @@
-{% if fit %}{% set chars = text | length %}{% set vw = chars * 46 + 552 %}{% set
+<!--print-only-->{% if fit %}{% set chars = text | length %}{% set vw = chars * 46 + 552 %}{% set
 half = vw / 2 %}<svg
   class="print-only-fit"
   xmlns="http://www.w3.org/2000/svg"
@@ -17,4 +17,4 @@ half = vw / 2 %}<svg
   </text></svg
 >{% else %}<span class="print-only"
   >🖨️🖨️🖨️ &nbsp;{{ text | safe }}&nbsp; 🖨️🖨️🖨️</span
->{% endif %}
+>{% endif %}<!--print-only-->
