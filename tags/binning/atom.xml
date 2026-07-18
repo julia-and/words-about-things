@@ -7,6 +7,8 @@
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2026-05-12T00:00:00+00:00</updated>
     <id>https://julia-and.github.io/words-about-things/tags/binning/atom.xml</id>
+    <icon>https://julia-and.github.io/words-about-things/img/favicon.png</icon>
+    <logo>https://julia-and.github.io/words-about-things/img/favicon.png</logo>
     <entry xml:lang="en">
         <title>Categorizing agentic AI software development</title>
         <published>2026-05-12T00:00:00+00:00</published>
@@ -15,7 +17,7 @@
         <author>
           <name>
             
-              Unknown
+              Julia C Anderson
             
           </name>
         </author>
