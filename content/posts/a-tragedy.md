@@ -67,6 +67,6 @@ Obviously you can't divide all software engineers into just three categories. It
 
 If we don't adjust course, we are headed for a generation of lost innovation. If engineering devolves into prompting and re-prompting, your product is reproducible by anyone who finds the right combination of prose to feed into the machine. Innovation comes from people who _understand._ And understanding software can only come from experience.
 
-Regardless of how good AI actually is at software engineering, the continued push for more adoption is an explicit statement--by any involved--saying:
+Regardless of how good AI actually is at software engineering, the continued push for more adoption _feels_ like an explicit statement--by any involved--saying:
 
 > "Thanks for your 25 years of caring, it made for some great training data. But we have LLMs now, so we don't need your experience anymore."
