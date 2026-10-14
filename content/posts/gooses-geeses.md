@@ -27,13 +27,13 @@ Except...
 
 > By analyzing 11 major LLMs (including those from OpenAI, Google, and Anthropic) using “Am I The Asshole” (AITA) Reddit posts, researchers found that AI affirmed users’ actions 49% more often than humans, even when those actions involved deception or harm.
 >
-> - [Neuroscience News](https://neurosciencenews.com/ai-sycophancy-moral-judgment-30397/)
+> [Neuroscience News](https://neurosciencenews.com/ai-sycophancy-moral-judgment-30397/)
 
 The business model of an AI provider encourages optimization for user engagement--so that you continue using the tool. What better way than making you feel like an underappreciated genius with world-changing ideas?
 
 > In our human experiments, even a single interaction with sycophantic AI reduced participants’ willingness to take responsibility... while increasing their own conviction that they were right.
 >
-> - [Neuroscience News](https://neurosciencenews.com/ai-sycophancy-moral-judgment-30397/)
+> [Neuroscience News](https://neurosciencenews.com/ai-sycophancy-moral-judgment-30397/)
 
 Admittedly, this paper examined interpersonal conflict scenarios, not software engineering. But, I have first-hand subjective experience that suggests these same effects apply when building software with LLMs. My AI tells me that's a great insight, and just as valuable as the research paper ☺️
 
